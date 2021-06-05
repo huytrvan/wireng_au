@@ -28,10 +28,10 @@ export default {
       images: {
         Alcatel: "alcatel.webp",
         Asus: "asus.png",
-        Avm: "avm.png",
+        AVM: "avm.png",
         Comset: "comset.jpg",
         "D-link": "d-link.png",
-        "Gl-Inet": "gl-inet.png",
+        "GL-inet": "gl-inet.png",
         Huawei: "huawei.jpg",
         NetComm: "netcomm.jpg",
         NetGear: "netgear.png",
