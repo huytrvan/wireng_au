@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans">
-    <Header />
+    <Header class="mb-8" />
     <Nuxt />
   </div>
 </template>
