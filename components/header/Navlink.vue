@@ -56,18 +56,18 @@ export default {
 }
 .contact-btn {
   @apply w-full sm:w-32;
-  @apply hover:bg-yellow-300 bg-yellow-400;
-  @apply text-yellow-900;
+  @apply bg-gradient-to-b from-blue-400  to-blue-600;
+  @apply focus:from-blue-500;
+  @apply text-blue-50;
   @apply p-2;
   @apply block;
-  @apply shadow-sm;
+  @apply shadow;
 }
 .navlink__link {
   @apply mb-1 md:my-auto;
-  @apply p-4 sm:p-2 md:mr-12;
+  @apply p-4 sm:p-2 md:mr-10;
   @apply block;
-  @apply border-b-2;
-  @apply border-white md:hover:border-blue-800;
+  @apply border border-white lg:hover:border-blue-800;
   @apply focus:bg-blue-800 focus:text-blue-50;
 }
 </style>
