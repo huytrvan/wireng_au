@@ -1,3 +1,3 @@
 <template>
-  <h1>Testing testing</h1>
+  <IndexCarousel />
 </template>

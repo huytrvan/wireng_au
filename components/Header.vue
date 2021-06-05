@@ -28,11 +28,11 @@ export default {
   @apply py-4;
   @apply grid grid-cols-2;
   @apply gap-y-4;
-  @apply lg:px-6;
+
   @apply lg:gap-x-20 lg:gap-y-6;
 }
 .header__item {
   @apply col-span-2 sm:col-span-1;
 }
 </style>
-
+// @apply lg:px-6;
