@@ -1,7 +1,6 @@
 <template>
   <div class="">
-    <h1>Testing</h1>
-    <agile v-bind="agileSettings" class="shadow-md">
+    <agile v-bind="agileSettings" class="shadow-md border">
       <div v-for="imageName in imageNames" :key="imageName.id" class="slide">
         <img
           :src="require(`@/static/images/Carousels/${imageName}`)"
@@ -72,7 +71,7 @@ export default {
 .agile__dots {
   @apply absolute;
   @apply bottom-[3%];
-  @apply left-[36%];
+  @apply left-[40%];
 }
 .agile__dot {
   @apply mx-3;
