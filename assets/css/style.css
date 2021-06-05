@@ -12,4 +12,5 @@ body {
   @apply min-h-screen;
   @apply px-4;
   @apply shadow;
+  @apply text-gray-900;
 }
