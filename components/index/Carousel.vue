@@ -4,7 +4,7 @@
     <agile v-bind="agileSettings" class="shadow-md">
       <div v-for="imageName in imageNames" :key="imageName.id" class="slide">
         <img
-          :src="require(`../static/images/Carousels/${imageName}`)"
+          :src="require(`@/static/images/Carousels/${imageName}`)"
           alt=""
           class="w-full"
         />
@@ -68,9 +68,14 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
+.agile__dots {
+  @apply absolute;
+  @apply bottom-[3%];
+  @apply left-[36%];
+}
 .agile__dot {
-  @apply m-3;
+  @apply mx-3;
 }
 
 .agile__dot button {
@@ -78,6 +83,8 @@ export default {
   @apply opacity-25;
   @apply h-3;
   @apply w-6;
+  @apply hidden;
+  @apply lg:block;
 }
 
 .agile__dot--current button {
