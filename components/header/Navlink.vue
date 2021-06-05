@@ -60,6 +60,7 @@ export default {
   @apply text-yellow-900;
   @apply p-2;
   @apply block;
+  @apply shadow-sm;
 }
 .navlink__link {
   @apply mb-1 md:my-auto;
