@@ -1,7 +1,7 @@
 <template>
   <div class="grid sm:grid-cols-2 gap-8">
     <div class="">
-      <div class="text-gray-700 mb-4">
+      <div class="text-gray-700 mb-4 ml-1">
         <h2 class="text-xl">Question? Let us help.</h2>
         <p class="">You can contact us by clicking any icon below:</p>
       </div>
