@@ -32,7 +32,9 @@
           >Wireng.com.au</NuxtLink
         >
         is the Australia & New Zealand subsidiary of
-        <a href="wireng.com" class="text-blue-400 hover:underline">WirEng</a>
+        <a href="https://www.wireng.com" class="text-blue-400 hover:underline"
+          >WirEng</a
+        >
         USA.
       </p>
     </div>
