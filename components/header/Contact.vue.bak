@@ -1,0 +1,56 @@
+<template>
+  <div class="contact">
+    <a href="#" class="contact__email">
+      <span class="contact__email is-text">Email: sales@wireng.com</span>
+      <IconEmail class="contact__email is-icon" />
+    </a>
+    <a href="#" class="contact__tel">
+      <span class="contact__tel is-text">Whatsapp: +123456789</span>
+      <IconPhone class="contact__tel is-icon" />
+    </a>
+  </div>
+</template>
+<style>
+/* Mobile screen */
+.contact {
+  @apply flex justify-start;
+}
+.contact__email,
+.contact__tel {
+  @apply w-full;
+  @apply mx-2;
+}
+.contact__email.is-text,
+.contact__tel.is-text {
+  @apply hidden;
+  @apply font-bold text-xl;
+}
+.contact__email.is-icon,
+.contact__tel.is-icon {
+  @apply block;
+  @apply w-full h-12;
+  @apply p-2;
+  @apply rounded;
+}
+
+.contact__email.is-icon {
+  @apply border border-indigo-400 focus:border-indigo-300;
+  @apply text-indigo-500;
+  @apply bg-indigo-50;
+}
+
+.contact__tel.is-icon {
+  @apply bg-indigo-400 focus:bg-indigo-300;
+  @apply text-indigo-50;
+}
+
+/* Tablet Screen */
+.contact__email.is-text,
+.contact__tel.is-text {
+  @apply sm:block;
+}
+.contact__email.is-icon,
+.contact__tel.is-icon {
+  @apply sm:hidden;
+}
+</style>

@@ -1,3 +1,8 @@
 <template>
-  <h1>Testing testing</h1>
+  <div class="">
+    <IndexCarousel class="mb-12" />
+    <IndexModem />
+  </div>
 </template>
+
+//
