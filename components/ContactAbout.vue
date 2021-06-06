@@ -31,7 +31,7 @@
         <NuxtLink to="/" class="text-blue-400 hover:underline"
           >Wireng.com.au</NuxtLink
         >
-        is the Australian & New Zealand subsidiary of
+        is the Australia & New Zealand subsidiary of
         <a href="wireng.com" class="text-blue-400 hover:underline">WirEng</a>
         USA.
       </p>
