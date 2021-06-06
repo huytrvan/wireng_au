@@ -30,7 +30,7 @@ export default {
         Asus: "asus.png",
         AVM: "avm.png",
         Comset: "comset.jpg",
-        "D-link": "d-link.png",
+        "D-Link": "d-link.png",
         "GL-inet": "gl-inet.png",
         Huawei: "huawei.jpg",
         NetComm: "netcomm.jpg",
