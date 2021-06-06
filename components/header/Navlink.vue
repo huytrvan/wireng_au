@@ -65,7 +65,7 @@ export default {
 }
 .navlink__link {
   @apply mb-1 md:my-auto;
-  @apply p-4 sm:p-2 md:mr-10;
+  @apply p-4 sm:p-2 sm:mr-5 md:mr-10;
   @apply block;
   @apply border border-white lg:hover:border-blue-800;
   @apply focus:bg-blue-800 focus:text-blue-50;
