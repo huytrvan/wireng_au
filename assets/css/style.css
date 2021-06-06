@@ -10,7 +10,6 @@ body {
   max-width: 1185px;
   @apply mx-auto;
   @apply min-h-screen;
-  @apply px-4;
   @apply shadow;
   @apply text-gray-900;
 }
