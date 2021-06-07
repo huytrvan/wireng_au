@@ -4,5 +4,3 @@
     <IndexModem />
   </div>
 </template>
-
-//
