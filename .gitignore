@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Ignore images because they are large files
+static/images/
