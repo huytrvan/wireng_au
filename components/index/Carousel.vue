@@ -40,7 +40,6 @@
           "
         />
       </template>
-      <template slot="dot"> hey </template>
     </agile>
   </div>
 </template>
