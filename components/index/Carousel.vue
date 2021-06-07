@@ -3,7 +3,7 @@
     <agile v-bind="agileSettings" class="shadow-md border">
       <div v-for="imageName in imageNames" :key="imageName.id" class="slide">
         <img
-          :src="require(`@/static/images/Carousels/${imageName}`)"
+          :src="require(`@/static/images/carousels/${imageName}`)"
           alt=""
           class="w-full"
         />
@@ -40,7 +40,6 @@
           "
         />
       </template>
-      <template slot="dot"> hey </template>
     </agile>
   </div>
 </template>
