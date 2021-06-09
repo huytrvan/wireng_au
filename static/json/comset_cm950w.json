@@ -1,11 +1,11 @@
 [
     [
-        "brand",
+        "Brand",
         "Comset"
     ],
     [
-        "model",
-        "CM685VX"
+        "Model",
+        "CM950W"
     ],
     [
         "Main",
@@ -21,7 +21,7 @@
     ],
     [
         "WiFi",
-        "WiFi N300 802.11 a/b/g/n 2.4 GHz WPA2 Enterprise (WiFi) Hotspot/Captive Portal SSID-based Priority"
+        "Dual-Band 2x2 MIMO Technology, up to 867Mbps 802.11 a/b/g/n/ac 2.4 GHz and 5 GHz WPA2 Enterprise (WiFi) Hotspot/Captive Portal SSID-based Priority"
     ],
     [
         "VPN AND ROUTING",
@@ -41,15 +41,19 @@
     ],
     [
         "Firmware update",
-        "Supports firmware update locally, remotely (LAN, WiFi and OTA WAN)"
+        "supports firmware update locally, remotely (LAN, WiFi and OTA WAN)"
     ],
     [
         "DI/DO (Digital Input and Output)",
-        "4 x Digital Input ports for alarm notification via email or SMS. These can alsbe used as Digital Output ports tcontrol electrical devices via SMS or GUI (a DIO board is required)"
+        "4 x Digital Input ports for alarm notification via email or SMS. These can also be used as Digital Output ports to control electrical devices via SMS or GUI (a DIO board is required)"
     ],
     [
         "Other",
-        "Cellular and WiFi MIMO Syslog (local and remote) DDNS DNS proxy Optimized EMC design Real-time clock (NTP, update with defined hours) WAN/LAN/Memory statistics Modbus"
+        "Cellular and WiFi MIMO Syslog (local and remote) DDNS DNS proxy Optimized EMC design Real-time clock (NTP, update with defined hours) WAN/LAN/Memory statistics"
+    ],
+    [
+        "Features",
+        ""
     ],
     [
         "Redundancy and Load Balancing",
@@ -69,7 +73,7 @@
     ],
     [
         "SMS, SMS Control and Alarm",
-        "Receive and Send SMS; WAN Cell APN configuration via SMS; SMS Control and Alarm. SMS or Call tcontrol router tbe online, offline, reboot, signal and status monitor (check out the Comset SMS App) SMS text send/receive."
+        "Receive and Send SMS; WAN Cell APN configuration via SMS; SMS Control and Alarm. SMS or Call to control router tbe online, offline, reboot, signal and status monitor (check out the Comset SMS App) SMS text send/receive."
     ],
     [
         "Specifications",
@@ -81,19 +85,19 @@
     ],
     [
         "Hardware",
-        "CPU: 580Mhz; RAM: 512 Mb DDR, option for up to 4GB DDR; Flash: 256Mb, option for up to 8GBit"
+        "CPU: 880Mhz dual core; RAM: 1Gb DDR3, option for up to 4GB DDR3; Flash: 128Mb, option for up to 8GBit"
     ],
     [
         "WAN",
-        "Integrated 5G modem (with 4G and 3G failover); 10/100/1000Mbps Gigabit Ethernet WAN port – NBN/ADSL; WiFi as WAN; MIMO “N” 2.4 GHz; 802.11 a/b/g/n"
+        "Integrated 5G modem (with 4G and 3G failover); 10/100/1000Mbps Gigabit Ethernet port – NBN/ADSL; WiFi as WAN; MIMO “AC” 2.4 GHz and 5 GHz; 802.11 a/b/g/n/ac"
     ],
     [
         "LAN/WiFi",
-        "WiFi N300; 802.11 a/b/g/n; 10/100/1000Mbps Gigabit Ethernet LAN port."
+        "Dual-band WiFi; 802.11 a/b/g/n/ac; TwGigabit and twFast Ethernet LAN ports."
     ],
     [
         "Ports",
-        "Power (2 Pins Terminal Block for wire connection) 2 x Ethernet LAN/WAN 4 x cellular (or 3 x cellular and 1 x GPS) antenna connectors SMA 2 x WiFi antenna connectors SMA 1 x Serial connector RS232 (3 Pins Terminal Block) 4 x Digital I/O ports (Terminal Block)"
+        "Power (Passive POE, 2 Pins Terminal Block for wire connection) 5 x Ethernet LAN/WAN 4 x cellular (or 3 x cellular and 1 x GPS) antenna connectors SMA 2 x WiFi antenna connectors SMA 1 x Serial connector RS232 (3 Pins Terminal Block) 4 x Digital I/O ports (Terminal Block) USB3.0 port Console Port (Terminal Block)"
     ],
     [
         "Power",
@@ -101,23 +105,23 @@
     ],
     [
         "LEDs",
-        "SYS, VPN, SIGNAL, CELL, WAN, LAN, WiFi"
+        "SYS, ERR, VPN, WiFi, USB, WAN, LAN x 4, SIM1, SIM2, SIGNAL1, SIGNAL2, SIGNAL3"
     ],
     [
         "UIM/SIM Card Slot",
-        "Supports 1.8V/3V UIM/SIM card"
+        "Supports 1.8V/3V UIM/SIM cards, twsim card slots"
     ],
     [
         "Other",
-        "Reset button"
+        "Reset button, console port"
     ],
     [
         "Size",
-        "100mm x 60mm x 21mm"
+        "132mm x 112mm x 45mm"
     ],
     [
         "Weight",
-        "230g (not including the antennas) 380g (including the antennas) 860g (including all accessories)"
+        "410g (not including the antennas) 550g (including the antennas) 750g (including all accessories)"
     ],
     [
         "Temperature",
@@ -153,7 +157,7 @@
     ],
     [
         "Wi-Fi",
-        "WiFi N300 802.11a/b/g/n; Can be used as AP or Client. Frequency Range: 2.412 ~ 2.472GHz"
+        "802.11a/b/g/n/ac; Can be used as AP or Client. Frequency Range: 2.412 ~ 2.472GHz 5.150 ~ 5.825 GHz"
     ],
     [
         "Other",
@@ -165,7 +169,7 @@
     ],
     [
         "Package Contents",
-        "CM685VX 5G Router Ethernet and Serial Cables Power Adapter 4 x Cellular Antennas, 2 x WiFi Antennas"
+        "CM950W 5G Router Ethernet and Serial Cables Power Adapter 4 x Cellular Antennas, 2 x WiFi Antennas"
     ],
     [
         "Regulatory Compliance",

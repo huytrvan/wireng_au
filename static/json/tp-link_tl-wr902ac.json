@@ -1,0 +1,158 @@
+[
+    [
+        "Brand",
+        "TP-Link"
+    ],
+    [
+        "Model",
+        "TL-WR902AC"
+    ],
+    [
+        "WIRELESS",
+        ""
+    ],
+    [
+        "Standards",
+        "Wi-Fi 5 IEEE 802.11ac/n/a 5 GHz IEEE 802.11n/b/g 2.4 GHz"
+    ],
+    [
+        "WiFi Speeds",
+        "AC750 5 GHz: 433 Mbps (802.11ac) 2.4 GHz: 300 Mbps (802.11n)"
+    ],
+    [
+        "WiFi Range",
+        "2 Bedroom Houses 2× Fixed Antennas (Internal)"
+    ],
+    [
+        "WiFi Capacity",
+        "Medium Dual-Band Allocate devices tdifferent bands for optimal performance"
+    ],
+    [
+        "Working Modes",
+        "Router Mode Access Point Mode Range Extender Mode Client Mode Hotspot Mode (WISP Mode)"
+    ],
+    [
+        "HARDWARE",
+        ""
+    ],
+    [
+        "Processor",
+        "Single-Core CPU"
+    ],
+    [
+        "Ethernet Ports",
+        "1× 10/100 Mbps WAN/LAN Port"
+    ],
+    [
+        "USB Support",
+        "1× USB 2.0 Port Supported Partition Formats: NTFS, FAT32 Supported Functions: FTP                 Server Media Server"
+    ],
+    [
+        "Buttons",
+        "Reset Button Mode Switch"
+    ],
+    [
+        "Power",
+        "5 V ⎓ 2 A"
+    ],
+    [
+        "SECURITY",
+        ""
+    ],
+    [
+        "WiFi Encryption",
+        "WEP WPA WPA2"
+    ],
+    [
+        "Network Security",
+        "SPI Firewall Access Control IP & MAC Binding Application Layer Gateway"
+    ],
+    [
+        "Guest Network",
+        "1× 5 GHz Guest Network 1× 2.4 GHz Guest Network"
+    ],
+    [
+        "SOFTWARE",
+        ""
+    ],
+    [
+        "Protocols",
+        "IPv4 IPv6"
+    ],
+    [
+        "Parental Controls",
+        "URL Filtering Time Controls"
+    ],
+    [
+        "WAN Types",
+        "Dynamic IP Static IP PPPoE PPTP L2TP"
+    ],
+    [
+        "Quality of Service",
+        "QoS by Device"
+    ],
+    [
+        "NAT Forwarding",
+        "Virtual Server Port Forwarding Port Triggering DMZ UPnP"
+    ],
+    [
+        "IPTV",
+        "IGMP Proxy"
+    ],
+    [
+        "DHCP",
+        "Address Reservation DHCP Client List Server"
+    ],
+    [
+        "DDNS",
+        "NO-IP Comex Dyno DNS"
+    ],
+    [
+        "Management",
+        "Tether App Webpage Check Web Emulator>"
+    ],
+    [
+        "PHYSICAL",
+        ""
+    ],
+    [
+        "Dimensions (W×D×H)",
+        "2.91 × 2.64 × 0.87 in (74 × 67 × 22mm)"
+    ],
+    [
+        "Weight",
+        "56.7 g"
+    ],
+    [
+        "Package Contents",
+        "Wi-Fi Router TL-WR902AC Power Adapter RJ45 Ethernet Cable Quick Installation Guide"
+    ],
+    [
+        "OTHER",
+        ""
+    ],
+    [
+        "System Requirements",
+        "Internet Explorer 11+, Firefox 12.0+, Chrome 20.0+, Safari 4.0+, or other                 JavaScript-enabled browser                 Cable or DSL Modem (if needed) Subscription with an internet service provider (for internet access)"
+    ],
+    [
+        "Certifications",
+        "FCC, CE, RoHS"
+    ],
+    [
+        "Environment",
+        "Operating Temperature: 0℃~40℃ (32℉ ~104℉) Storage Temperature: -40℃~70℃ (-40℉ ~158℉)                 Operating Humidity:                 10%~90% non-condensing Storage Humidity: 5%~90% non-condensing"
+    ],
+    [
+        "TEST DATA",
+        ""
+    ],
+    [
+        "WiFi Transmission Power",
+        "CE: <20dBm(2.4GHz) <23dBm(5GHz)"
+    ],
+    [
+        "WiFi Reception Sensitivity",
+        "11a 54M: -76dBm; 11ac VHT20 MCS8: -70dBm; 11ac VHT40 MCS9: -65.5dBm; 11ac VHT80 MCS9:                 -61.5dBm 2.4GHz:                 11g 54M: -76dBm11n; HT20 MCS7: -74dBm; 11n HT40 MCS7: -71dBm"
+    ]
+]

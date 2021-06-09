@@ -1,0 +1,178 @@
+[
+    [
+        "Brand",
+        "Comset"
+    ],
+    [
+        "Model",
+        "CM770W-6"
+    ],
+    [
+        "Main",
+        ""
+    ],
+    [
+        "WAN",
+        "TwCellular Modems 3G/4G/4GX LTE CAT 6 WiFi as WAN Failover and Load Balancing (The router does not support bonding) Advanced modem failure check WAN ports support Cell/Static IP/DHCP/PPPoE (on demand, keep alive, schedule, manual, standby)"
+    ],
+    [
+        "LAN",
+        "DHCP Server, Client, Relay DNS and DNS Proxy DDNS UPnP DMZ Multicast/Multicast Proxy QoS (DSCP and Priority Queuing) MAC Address Filtering VLAN 802.1Q"
+    ],
+    [
+        "WiFi",
+        "Dual-Band, Dual-Concurrent 802.11 a/b/g/n/ac 2.4 GHz and 5 GHz WPA2 Enterprise (WiFi) Hotspot/Captive Portal SSID-based Priority"
+    ],
+    [
+        "VPN AND ROUTING",
+        "IPsec Tunnel, PPTP, L2TP, GRE Tunnel, OpenVPN. OSPF/BGP/RIP, Virtual Server/Port Forwarding, IPv6, VRRP."
+    ],
+    [
+        "MANAGEMENT",
+        "Web GUI, API, CLI/SSH/Telnet Data Usage Alerts (router and per client) Advanced Troubleshooting Device Alerts SNMP SMS control TR-069"
+    ],
+    [
+        "SECURITY",
+        "RADIUS and TACACS+ support 802.1x authentication for Ethernet Certificate support ALGs MAC Address Filtering Advanced Security Mode (local user management only) Per-Client Web Filtering IP Filtering Content Filtering (basic) Website Filtering Zone-Based Object Firewall with host address (IP or FQDN), port, and mac address NAT, SPI, port blocking, service filtering (FTP, SMTP, HTTP, RPL, SNMP, DNS, ICMP, NNTP, POP3, SSH), protocol filtering, WAN ping (allow/ignore)"
+    ],
+    [
+        "OPTIMIZED IP COMMUNICATIONS",
+        "Automated WAN Failover WAN Affinity and QoS allow prioritization of VoIP services Advanced VPN connectivity options tHQ SIP ALG and NAT tallow VoIP and UC communications ttraverse firewall MAC Address Filtering 802.1p/q for LAN QoS segmentation and treatment of VoIP on LAN Private Network support (wired and 4G WAN)"
+    ],
+    [
+        "Firmware update",
+        "support firmware update locally, remotely (LAN, WiFi and OTA WAN)"
+    ],
+    [
+        "DI/DO (Digital Input and Output)",
+        "4 x Digital Input ports for alarm notification via email or SMS. These can also be used as Digital Output ports to control electrical devices via SMS or GUI (a DIO board is required)"
+    ],
+    [
+        "Other",
+        "Cellular and WiFi MIMO Syslog (local and remote) DDNS DNS proxy Optimized EMC design Real-time clock (NTP, update with defined hours) WAN/LAN/Memory statistics"
+    ],
+    [
+        "Features",
+        ""
+    ],
+    [
+        "Redundancy and Load Balancing",
+        "Failover between NBN/ADSL, 4G LTE Modem-1 and 4G LTE Modem-2 Auto-dial feature, keep alive link LCP, ICMP check Built-in watch dog Three-way redundancy: Cellular (3G/4G/4GX), RJ45 WAN (xDSL, DHCP, Fixed IP), WiFi client Load balancing"
+    ],
+    [
+        "Intelligent Routing",
+        "UPnP, DMZ, virtual server/port forwarding, routing rules, NAT-less routing, route management, per-interface routing, content filtering, IP filtering, website filtering, per-client Web filtering, local DHCP server, DHCP client, DHCP relay, DNS, DNS proxy, Split DNS; ALGs: PPTP, SIP, TFTP, FTP, IRC; MAC address filtering, Dynamic DNS, LAN/WAN affinity, STP, enterprise routing protocols: BGP/OSPF/RIP, multicast proxy"
+    ],
+    [
+        "Management",
+        "web-based GUI (local management), optional RADIUS or TACACS+ username/password; remote WAN web-based management w/ access control (HTTP, HTTPS); SNMP v1, v2c, & v3; CLI over SSH, SSH tserial, SSH ttelnet; API; one-button firmware upgrade; modem configuration, update, and management; modem data usage w/ alerts, per-client data usage; custom AT scripting tmodems; SMS; TR-069"
+    ],
+    [
+        "VPN",
+        "IPsec – Tunnel, NAT-T, and transport modes; Hash (MD5, SHA128, SHA256, SHA384, SHA512), Cipher (AES, 3DES, DES); GRE tunneling; PPTP support; L2TP, L2TP over IPSec support; VPN pass-through; OpenVPN; Certificate support; multiple networks supported in a single tunnel, site-to-site dynamic VPN with NHRP; VTI Tunnel support;"
+    ],
+    [
+        "SMS, SMS Control and Alarm",
+        "Receive and Send SMS; WAN Cell APN configuration via SMS; SMS Control and Alarm. SMS or Call to control router tbe online, offline, reboot, signal and status monitor (check out the Comset SMS App) SMS text send/receive."
+    ],
+    [
+        "Specifications",
+        ""
+    ],
+    [
+        "Main",
+        ""
+    ],
+    [
+        "Hardware",
+        "CPU: 880Mhz dual core; RAM: 2Gb DDR3, option for up to 4GB DDR3; Flash: 128Mb, option for up to 8GBit"
+    ],
+    [
+        "WAN",
+        "Integrated twLTE CAT 6 modems (with DC-HSPA+/3G failover); 10/100/1000Mbps Gigabit Ethernet port – NBN/ADSL; WiFi as WAN; MIMO “N” 2.4 GHz; 802.11 a/b/g/n"
+    ],
+    [
+        "LAN/WiFi",
+        "Dual-band, dual-concurrent WiFi; 802.11 a/b/g/n/AC; Four LAN/WAN switchable 10/100/1000Mbps Gigabit Ethernet ports."
+    ],
+    [
+        "Ports",
+        "Dual power (DC Jack, 2 Pin Terminal Block for wire connection) 5 x Ethernet LAN/WAN 4 x cellular antenna connectors SMA 1 x GPS antenna connector SMA (CM770W-6G model) 4 x WiFi antenna connectors SMA 2 x Serial connectors RS232(1 x DB9 and 1 x Terminal Socket) 4 x Digital I/O ports (Terminal Socket) TF (Micro oSD card slot) USB3.0 port Console Port (Terminal Socket)"
+    ],
+    [
+        "Power",
+        "Dual Power Input / Power failover; DC input steady state voltage range: 5-40 VDC (requires inline fuse for vehicle installations); For 9–24 VDC installations, use a 3 A fuse; For > 24 VDC installations, use a 2.5 A fuse; Reverse polarity and transient voltage protection per ISO 7637-2 Ignition sensing (automatic ON and time-delay OFF); Power consumption: Idle: typical=100mA@12VDC; Maximum=500mA@12VDC; Tx/Rx: typical=300mA@12VDC; Maximum=800mA@12VDC; 12VDC 1.5A adapter included"
+    ],
+    [
+        "LEDs",
+        "PWR, SYS, GPS (CM770W-6G model), USB, Cell1 Online, Cell1 Signal, Cell2 Online, Cell2 Signal, VPN, WAN, LAN*4, WiFi 2.4Ghz, WiFi 5Ghz"
+    ],
+    [
+        "UIM/SIM Card Slot",
+        "Support 1.8V/3V UIM/SIM cards, twsim card slots"
+    ],
+    [
+        "Other",
+        "Reset button, console port"
+    ],
+    [
+        "Size",
+        "231mm x 116mm x 35mm"
+    ],
+    [
+        "Weight",
+        "About 710g (not including the antennas) About 850g (including the antennas) About 960g (including all accessories, without package)"
+    ],
+    [
+        "Temperature",
+        "−35 °C t75 °C operating; −40 °C t85 °C storage"
+    ],
+    [
+        "Humidity (non-condensing)",
+        "5% t95% operating; 5% t95% storage"
+    ],
+    [
+        "Case",
+        "Alloy; Black color"
+    ],
+    [
+        "Cellular",
+        ""
+    ],
+    [
+        "Compatible Mobile Networks",
+        "4G LTE (FDD/TDD) UMTS WCDMA (HSUPA/HSDPA/HSPA/HSPA+/DC-HSPA+)"
+    ],
+    [
+        "Cellular Frequency",
+        "Note: Router includes twLTE CAT 6 modems, each supporting the following frequencies: 4G LTE FDD B1 (2100) B3 (1800) B5 (850) B7 (2600) B8 (900) B20 (800) B28 (700) B32 (1500) 4G LTE TDD B38 (2600) B40 (2300) B41 (2500) 2 x CA Carrier Aggregation B1+B1/B5/B8/B20/B28; B3+B3/B5/B7/B8/B20/B28; B7+B5/B7/B8/B20/B28; B20+B32; B38+B38; B40+B40; B41+B41 WCDMA 850/ 900/ 1800/ 2100Mhz"
+    ],
+    [
+        "Bandwidth",
+        "Note: Router includes twLTE CAT 6 modems, each supporting the following bandwidths: 4G LTE FDD/ 4GX LTE-A Downlink 300Mbps Uplink 50Mbps 4G LTE TDD Downlink 300Mbps Uplink 50Mbps DC HSPA+ Downlink 21/42Mbps Uplink 5.76Mbps HSPA Downlink 14.4Mbps Uplink 5.76Mbps HSUPA Downlink 7.2Mbps Uplink 5.76Mbps"
+    ],
+    [
+        "WiFi (WLAN)",
+        ""
+    ],
+    [
+        "Wi-Fi",
+        "802.11a/b/g/n/AC; Can be used as AP and client; Frequency Range: 2.412 ~ 2.472Ghz 5.180 ~ 5.825 Ghz"
+    ],
+    [
+        "Other",
+        ""
+    ],
+    [
+        "Warranty",
+        "1 Year Warranty"
+    ],
+    [
+        "Package Contents",
+        "CM770W-6 Gigabit Router Ethernet and Serial Cables Power Adapter 4 x Cellular Magnetic Antennas, 4 x WiFi Rubber Antennas, 1 x GPS Antenna (CM770W-6G model)"
+    ],
+    [
+        "Regulatory Compliance",
+        "RCM, CE, RoHS Modem is approved by Telstra"
+    ]
+]

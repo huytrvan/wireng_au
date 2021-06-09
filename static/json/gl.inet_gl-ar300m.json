@@ -1,0 +1,58 @@
+[
+    [
+        "Brand",
+        "GL.iNet"
+    ],
+    [
+        "Model Number",
+        "GL-AR300M (Shadow)"
+    ],
+    [
+        "Specifications",
+        ""
+    ],
+    [
+        "Interface",
+        "1 WAN,\n1 LAN,\n1 USB2.0,\n1 micro USB (power),\n1 Reset button,\nPCIe,\nUART "
+    ],
+    [
+        "CPU",
+        "QCA9531, @650MHz SoC"
+    ],
+    [
+        "Memory / Storage",
+        "DDR2 128MB / FLASH 16MB"
+    ],
+    [
+        "Protocol",
+        "IEEE 802.11b/g/n"
+    ],
+    [
+        "Wi-Fi Speed",
+        "300Mbps (2.4GHz)"
+    ],
+    [
+        "Ethernet Port",
+        "10/100M"
+    ],
+    [
+        "LEDs",
+        "Indication for wireless status and power supply"
+    ],
+    [
+        "Power Consumption",
+        "<2W "
+    ],
+    [
+        "Operating Temperature",
+        "0 ~ 40°C (32 ~ 104°F) "
+    ],
+    [
+        "Storage Temperature",
+        "-20 ~ 70°C (-4 ~ 158°F) "
+    ],
+    [
+        "Dimension / Weight",
+        "58 x 58 x 25mm / 40g"
+    ]
+]

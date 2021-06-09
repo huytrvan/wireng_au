@@ -1,0 +1,70 @@
+[
+    [
+        "Brand",
+        "NetComm"
+    ],
+    [
+        "Model",
+        "NL1901ACV"
+    ],
+    [
+        "VDSL",
+        "PPPoE/IPoA/ Static IP/Dynamic IP/Bridge\nITU-T G.993.2 VDSL2\nSupports 8a,8b,12a,12b,17a profile\nSupports G.INP"
+    ],
+    [
+        "ADSL2+",
+        "PPPoE/PPPoA/IPoA/Static IP/Dynamic IP/Bridge\nITU G.992.1 (G.dmt)\nITU G.992.2 (G.lite)\nITU G.992.3\nITU G.992.3 (Annex J)\nITU G.992.3 (Annex L)\nITU G.992.5\nITU G.992.5 (Annex M)\nSupports multiple PVCs"
+    ],
+    [
+        "CELLULAR WAN",
+        "Quectel EC25-AU\n- LTE Bands:\n+ FDD:1,3,4,5,7,8,28\n+ TDD: 40\n- WCDMA Bands:\n+ B1/B2/B5/B8\n- GSM Bands:\n+ B2/B3/B5/B8"
+    ],
+    [
+        "ETHERNET WAN",
+        "PPPoE, DHCP client, Static IP"
+    ],
+    [
+        "DEVICE INTERFACES",
+        "1 x RJ45 10/100/1000Mbps WAN port\n1 x ADSL / VDSL port\n4 x RJ45 10/100/1000Mbps LAN ports\n2 x RJ11 Phone port (VoIP)\n2 x USB 2.0 Ports (storage)\n1 x Reset button\n2 x WPS buttons (2.4GHz and 5GHz)\n1 x Power jack\n1 x Power switch\nLED (Power/DSL/Internet/WAN/LAN1-4/2.4GHz/5GHz/WPS/USB1-2/Phone1-2/LTE)"
+    ],
+    [
+        "WIRELESS",
+        "Compatible with IEEE 802.11b, IEEE 802.11g, IEEE 802.11n and IEEE 802.11ac\nSupports concurrent dual band (2.4GHz/5GHz) wireless\nSSID broadcast or in stealth mode\nAuto/Manual Channel selection\nWEP/WPA/WPA-PSK/WPA2/WPA2-PSK WPS button (WiFi Protected Setup)"
+    ],
+    [
+        "ANTENNAS",
+        "3x3 Internal antennas (802.11ac)\n2x2 Internal antennas (802.11n)\n2 x 4G/3G Swivel mount antennas"
+    ],
+    [
+        "VOIP",
+        "Protocol\nSIP2.0\nG.711, G.723 and G.726\nFAX T.38 FAX Relay"
+    ],
+    [
+        "MEDIA",
+        "File sharing\nDLNA"
+    ],
+    [
+        "SECURITY",
+        "Firewall\nMAC filtering"
+    ],
+    [
+        "ROUTING",
+        "Static Route\nDynamic Route (RIP v1/v2)\nDMZ\nSupports Layer 2 Bridge Mode"
+    ],
+    [
+        "ADMINISTRATION",
+        "QoS\nSNMP\nUPnP\nSyslog\nWeb-based UI\nRemote Login\nTR-069 Auto provisioning\nBackup/Restore Settings"
+    ],
+    [
+        "COMPLIANCE",
+        "RCM, NZ Telepermit"
+    ],
+    [
+        "PACKAGE INCLUDES",
+        ""
+    ],
+    [
+        "ENVIRONMENTAL AND PHYSICAL",
+        "Operating temperature: 0-40°C,\nHumidity: 10%-95% non-condensing\nStorage temperature: -10-60°C,\nHumidity: 5%-95% non-condensing\nDC Input Voltage 12V/2.5A Dimensions: 230 (w) x 200 (h) x 75 (d) mm\nWeight: 562 grams (approximately)"
+    ]
+]

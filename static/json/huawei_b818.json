@@ -1,0 +1,66 @@
+[
+    [
+        "Brand",
+        "Huawei"
+    ],
+    [
+        "Model Number",
+        "B818"
+    ],
+    [
+        "External port",
+        "Width 103 mm\nHeight 103 mm\nDepth 225 mm\nWeight About 614 g (excluding the power adapter)"
+    ],
+    [
+        "5G/4G",
+        "Communication Standard: LTE CAT 19\nApplicable Network: LTE / UMTS\nNetwork Mode: 4G / 3G\n4G Transmission Rate: 1.6 Gbps / 150 Mbps (Theoretical value. The actual rate depends on the network environment)"
+    ],
+    [
+        "Wifi",
+        "Transmission Standard: 802.11b/g/n/a/ac\nWireless Transmission Rate: 300 Mbps on 2.4 GHz band (theoretical value), 867 Mbps on 5 GHz band (theoretical value)\nWireless Frequency Band: 2.4 GHz & 5 GHz, 2 x 2 MIMO"
+    ],
+    [
+        "Antenna",
+        "External Antenna: Two LTE antenna extension ports, allowing users to purchase antennas\n4G / 3G Antenna Type: Built-in LTE / UMTS primary and secondary antennas\nWi-Fi Antenna Type: Built-in 2.4 GHz and 5 GHz Wi-Fi antennas"
+    ],
+    [
+        "Processors",
+        "CPU: Balong chipset"
+    ],
+    [
+        "Network Port",
+        "One LAN/WAN port (RJ45)\nOne LAN port (RJ45)\nOne phone port (RJ11)"
+    ],
+    [
+        "Interface",
+        "One power adapter port\nTwo external LTE antenna ports (TS-9)\nOne SIM card slot (Micro SIM)"
+    ],
+    [
+        "Button",
+        "Reset / Power / H, support HiLink device one-button pairing, compatible with WPS"
+    ],
+    [
+        "Led Indicator",
+        "Signal strength / Power / Status / LAN / Wi-Fi / Mode"
+    ],
+    [
+        "Power Supply",
+        "Less than 24 W\nAC / DC Power Supply:\nAC: 100 V - 240 V, 50 Hz / 60 Hz\nDC: 12V / 2A"
+    ],
+    [
+        "Software Functions",
+        "APP: HUAWEI AI Life APP (Android), HUAWEI Smart Home APP (iOS)\n\nMore Functions: Mobile / Ethernet network access, voice services, SMS, firewall service / MAC filtering, Wi-Fi authentication, VPN client / pass-through, IP pass-through, IPv4 & IPv6 dual stack and IPv6 only, Multi-APN, 5 GHz preferred, WebUI, operator maintenance, HOTA, etc."
+    ],
+    [
+        "Security",
+        "Anti-brute force algorithms, WPA-PSK / WPA2-PSK Wi-Fi encryption, firewall, DMZ, PAP / CHAP, DMZ / DoS attack protection"
+    ],
+    [
+        "Environment",
+        "Temperature:\nOperating temperature: 0 °C ~ 40 °C\nStorage temperature: -20 °C ~ 70 °C\nHumidity:\n5% ~ 95% (non-condensing)"
+    ],
+    [
+        "Packing list",
+        "HUAWEI 4G Router 3 Prime: 1 (standard)\nPower Adapter: 1 (standard)\nQuick Start: 1 (standard)\nEthernet Cable: 1 (optional)\nPhone Cable: 1 (optional)\nWarranty Card: 1 (optional)"
+    ]
+]

@@ -1,0 +1,166 @@
+[
+    [
+        "brand",
+        "Comset"
+    ],
+    [
+        "model",
+        "CM820V-4"
+    ],
+    [
+        "WIRELESS",
+        ""
+    ],
+    [
+        "Compatible Mobile Networks",
+        "4G/ 4GX UMTS WCDMA (HSUPA/ HSDPA/ HSPA/ HSPA+/ DC-HSPA+) GSM EDGE GSM GPRS"
+    ],
+    [
+        "Cellular Frequency",
+        "4G LTE FDD Octo-band B1 (2100) B2 (1900) B3 (1800) B4 (1700) B5 (850) B7 (2600) B8 (900) B28 (700) 4G LTE TDD band B40 2300Mhz UMTS/ HSPA/ HSUPA/ HSPA/ HSPA+/ DC-HSPA+ 850/ 900/ 1900/ 2100Mhz Quad-band EGSM 850/ 900/ 1800/ 1900MHz"
+    ],
+    [
+        "Bandwidth",
+        "4G LTE FDD/ 4GX LTE-A\nDownlink 10Mbps\nUplink 5Mbps 4G LTE TDD\nDownlink 8.96Mbps\nUplink 3.1Mbps DC HSPA+\nDownlink 21/42Mbps\nUplink 5.76Mbps HSPA\nDownlink 14.4Mbps\nUplink 5.76Mbps HSUPA\nDownlink 7.2Mbps\nUplink 5.76Mbps HSDPA\nDownlink 7.2Mbps\nUplink 384 Kbps WCDMA/UMTS\nDownlink 384 Kbps\nUplink 384 Kbps EDGE\nDownlink 236 Kbps\nUplink 118 Kbps GPRS\nDownlink 85.6 Kbps\nUplink 42.8 Kbps"
+    ],
+    [
+        "WiFi",
+        "802.11b/g/n \n 300Mbps"
+    ],
+    [
+        "SMS",
+        "SMS call to control router tbe online, offline, reboot, status info, alarm, WiFi on, WiFi off"
+    ],
+    [
+        "VLAN",
+        "ID tagging Supported"
+    ],
+    [
+        "Fail Over Redundancy (network backup feature)",
+        "Auto-dial feature, keep alive link Cellular (2G/3G/4G), RJ45 WAN (xDSL, DHCP, Fixed IP), WiFi client"
+    ],
+    [
+        "DTU",
+        "DTU feature, serial RS232 tCellular Gateway"
+    ],
+    [
+        "VPN",
+        "OpenVPN, IPSec, L2TP, PPTP Server and Client supported"
+    ],
+    [
+        "Firmware upgrade",
+        "Supported locally and remotely"
+    ],
+    [
+        "Protocol support",
+        "TCP, UDP, SMTP, POP, ICMP, FTP, PPP, PPPoE, DHCP, DDNS, DNS, SNMP, WPS, DMZ, Syslog (local and remote), NAT, xDSL, NTP, QoS, SNMP, Dynamic routing (OSPF, OSPF6, RIP, RIPng, BGP), support firmware update locally and remotely"
+    ],
+    [
+        "Security",
+        "Supports 64/128 bits WEP, 802.1x, WPA and WPA2 Supports WDS TKIP, AES encryption Supports WPA1/2- 802.1x Supports EAP- TLS, TTLS, LEAP, PEAP Supports access with username and password Supports access control base WAN/LAN interface Supports access control base source IP address Defence DOS attack, supports SYN flooding, IP surfing, ping of death, fragile, teardrop, land Supports PAP and CHAP Supports IP filtering"
+    ],
+    [
+        "Advanced Firewall Features",
+        "Network Address Translation (NAT) Stateful Packet Inspection (SPI) VPN Pass-through"
+    ],
+    [
+        "Media Access Control",
+        "CSMA/CA with ACK"
+    ],
+    [
+        "Certifications",
+        "Radius Client"
+    ],
+    [
+        "Interfaces",
+        ""
+    ],
+    [
+        "LAN",
+        "1 x 10/100M LAN port (RJ45 interface) 1 x 10/100M LAN/WAN port (RJ45 interface)"
+    ],
+    [
+        "Antennas",
+        "2 x antennas for WiFi (detachable SMA interface x 1, internal x 1) 2 x antennas for Cellular (detachable SMA interface x 2, cellular supports diversity receiving MIMO)"
+    ],
+    [
+        "LED",
+        "SYS*1 VPN*1 SIGNAL*1 CELL*1 WAN*1 LAN*4 WiFi*1"
+    ],
+    [
+        "Serial port",
+        "RS232 built-in terminal block interface"
+    ],
+    [
+        "AT command",
+        "Supported"
+    ],
+    [
+        "UIM/SIM Card Slot",
+        "Supports 1.8/3V UIM/SIM cards, one sim card slot"
+    ],
+    [
+        "DC Jack",
+        "Twtypes of power input 2.5mm DC jack * 1 Terminal block * 1"
+    ],
+    [
+        "Power",
+        ""
+    ],
+    [
+        "Power supply",
+        "DC5V-40V, typical DC9V1A or 12V 1A, 12V car use supported"
+    ],
+    [
+        "Power consumption",
+        "Current Idle 122mA@12VDC Max 208mA@12VDC Average 167mA@12VDC Power Idle 1.2W@12VDC Max 2.5W@12VDC Average 2W@12VDC"
+    ],
+    [
+        "Software",
+        ""
+    ],
+    [
+        "Device Management",
+        "WEB interface (Internet Explorer v6 or later, Mozilla Firefox v1.5 or later, Chrome, Opera, Safari or other Java-enabled browsers)"
+    ],
+    [
+        "Minimum System Requirements",
+        "Mobile Internet Access Subscription and Internet PC Adapter Computer with: Windows 7, 8, 10, Vista, Windows XP SP2, Windows 2000 SP4 or Mac OS X(v10.4/v10.3), Linux Internet Explorer 6 or Mozilla Firefox CD-ROM Drive Network Interface Card"
+    ],
+    [
+        "Physical",
+        ""
+    ],
+    [
+        "Operating Temperature",
+        "Storage -40°C t85°C Working -30°C t75°C"
+    ],
+    [
+        "Humidity",
+        "95% Maximum (non-condensing)"
+    ],
+    [
+        "Dimensions",
+        "168mm x 104mm x 25mm"
+    ],
+    [
+        "Weight",
+        "455g (not including antennas) 550g (including antennas) 850g (including all accessories)"
+    ],
+    [
+        "Other",
+        ""
+    ],
+    [
+        "Warranty",
+        "1 Year"
+    ],
+    [
+        "Regulatory Compliance",
+        "RCM, CE, RoHS"
+    ],
+    [
+        "Package Contents",
+        "CM820 Router CAT5 Ethernet Cable Serial Cable Power Adapter 3 x Antennas"
+    ]
+]

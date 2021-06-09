@@ -1,0 +1,42 @@
+[
+    [
+        "Brand",
+        "TP-Link "
+    ],
+    [
+        "Model Number",
+        "TL-WR802N "
+    ],
+    [
+        "Specifications",
+        ""
+    ],
+    [
+        "Wireless",
+        "Standards\n\tWi-Fi 4\nIEEE 802.11n /b /g  2.4 GHz\nWiFi Speeds\n\tN300\n2.4 GHz: 300 Mbps (802.11n)\nWiFi Range\n\t2 Bedroom Houses2× Fixed Antennas\nWiFi Capacity\n\tLegacy\nWorking Modes\n\tRouter Mode\nAccess Point Mode\nRange Extender Mode\nClient Mode\nHotspot Mode (WISP Mode)"
+    ],
+    [
+        "Hardware",
+        "Processor\n\tSingle-Core CPU\nEthernet Ports\n\t1× 10/100 Mbps WAN/LAN Port\nButtons\n\tReset Button\nPower\n\t5 V ⎓ 1 A"
+    ],
+    [
+        "Security",
+        "WiFi Encryption\n\tWEP\n\tWPA\n\tWPA2\n\tWPA/WPA2-Enterprise (802.1x)\nNetwork Security\n\tSPI Firewall\nAccess Control\nIP & MAC Binding\n Application Layer Gateway\nGuest Network\n\t1× 2.4 GHz Guest Network"
+    ],
+    [
+        "Software",
+        "Protocols\n\tIPv4\nIPv6\nParental Controls\n\tURL Filtering\nTime Controls\nWAN Types\n\tDynamic IP\nStatic IP\nPPPoE\nPPTP\nL2TP\nQuality of Service\n\tQoS by Device\nNAT Forwarding\n\tVirtual Server\nPort Forwarding\nPort Triggering\nDMZ\nUPnP\nIPTV\n\tIGMP Proxy\nDHCP\n\tAddress Reservation\nDHCP Client List\nServer\nDDNS\n\tNO-IP\nComex\nDynDNS\nManagement\n\tTether App\nWebpage"
+    ],
+    [
+        "Physical",
+        "Dimensions (W×D×H)\n\t2.2 × 2.2 × 0.7 in (57 × 57 ×18 mm)\nPackage Contents\n\tWi-Fi Router TL-WR802N\nPower Adapter\nUSB Cable\nRJ45 Ethernet Cable\nQuick Installation Guide\nResource CD"
+    ],
+    [
+        "Other",
+        "System Requirements\n\tInternet Explorer 11+,\n\tFirefox 12.0+,\n\tChrome 20.0+,\n\tSafari 4.0+,\n\tor other JavaScript-enabled browser\n\nCable or DSL Modem (if needed)\n\nSubscription with an internet service provider (for internet access)\nCertifications\n\tFCC, CE, RoHS\nEnvironment\n\tOperating Temperature: 0℃~40℃ (32℉ ~104℉)\nStorage Temperature: -40℃~70℃ (-40℉ ~158℉)\nOperating Humidity: 10%~90% non-condensing\nStorage Humidity: 5%~90% non-condensing"
+    ],
+    [
+        "Test Data",
+        "WiFi Transmission Power\n\tCE:<20dBm(2.4GHz)\n\tFCC:<30dBm\nWiFi Reception Sensitivity\n\t270M: -70dBm@10% PER\n130M: -75dBm@10% PER\n108M: -88dBm@10% PER\n54M: -78dBm@10% PER\n11M: -100dBm@8% PER\n6M: -92dBm@10% PER\n1M: -100dBm@8% PER"
+    ]
+]

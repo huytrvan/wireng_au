@@ -1,0 +1,150 @@
+[
+    [
+        "Brand",
+        "Tenda"
+    ],
+    [
+        "model",
+        "W15E V2.0"
+    ],
+    [
+        "Hardware",
+        ""
+    ],
+    [
+        "RAM",
+        "128MB"
+    ],
+    [
+        "Flash",
+        "8MB"
+    ],
+    [
+        "Interface",
+        "4*FE(1~3 WAN/ 1~3 LAN)"
+    ],
+    [
+        "Maximum Power Consumption",
+        "9W"
+    ],
+    [
+        "Button",
+        "1* Reset button"
+    ],
+    [
+        "Power",
+        "9V 1A"
+    ],
+    [
+        "Dimension(LxWxH)",
+        "220*135*30mm"
+    ],
+    [
+        "Wireless",
+        ""
+    ],
+    [
+        "Frequency",
+        "2.4GHz\\5GHz"
+    ],
+    [
+        "Wireless Speed",
+        "300+867Mbps"
+    ],
+    [
+        "Software",
+        ""
+    ],
+    [
+        "Maximum user capacity",
+        "50"
+    ],
+    [
+        "Maximum Wifi user capacity",
+        "30"
+    ],
+    [
+        "Internet Connection Type",
+        "PPPoE/DHCP/Static IP/Russian L2TP/India (PPPoE supports server name customization)"
+    ],
+    [
+        "Authorization Service",
+        "Captive Portal/Facebook Authentication"
+    ],
+    [
+        "Captive Portal",
+        "50 Portal Accounts\nCustomize E-bulletin"
+    ],
+    [
+        "Backbound Bandwidth",
+        "Smart Bandwith Control\nManual Definition"
+    ],
+    [
+        "Internet Access Control",
+        "IP/mac/URL Filter"
+    ],
+    [
+        "VPN Protocal",
+        "PPTP/L2TP/IPSEC"
+    ],
+    [
+        "Port Forwarding",
+        "Port Forwarding\nDMZ"
+    ],
+    [
+        "Security Setting",
+        "IP-MAC Binding\nARP Attack Protection"
+    ],
+    [
+        "DDNS",
+        "no-ip/Dyno DNS"
+    ],
+    [
+        "UPNP",
+        "Support"
+    ],
+    [
+        "Firmware Upgrade",
+        "Local/online Upgrade"
+    ],
+    [
+        "System Tool",
+        "Schedule Reboot Restore or Backup Configuration"
+    ],
+    [
+        "Network Status View",
+        "Traffic Statistics Network structure topology"
+    ],
+    [
+        "Others",
+        ""
+    ],
+    [
+        "Package Contents",
+        "Wireless Router*1\nPower Adapter *1\nInstall Guide*1"
+    ],
+    [
+        "Web Login Address",
+        "tendawifi.com or 192.168.0.252"
+    ],
+    [
+        "OperatingTemperature",
+        "0℃ ~ 40℃"
+    ],
+    [
+        "Storage Temperature",
+        "-40℃ ~ 70℃"
+    ],
+    [
+        "Operating Humidity",
+        "10% ~ 90% RH non-condensing"
+    ],
+    [
+        "Storage Humidity",
+        "5% ~ 90%RH non-condensing"
+    ],
+    [
+        "Certificates",
+        "CE/FCC/RoHS"
+    ]
+]
