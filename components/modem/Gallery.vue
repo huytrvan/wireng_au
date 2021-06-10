@@ -72,7 +72,9 @@ export default {
   props: ["urlPaths", "brand", "model", "imageCount"],
   computed: {
     folderName: function () {
-      return `${this.brand}_${this.model}`;
+      let brand = this.brand.toLowerCase();
+      let model = this.model.toLowerCase();
+      return `${brand}_${model}`;
     },
   },
   data() {
