@@ -5,7 +5,11 @@
       @after-change="$refs.thumb.goTo($event.currentSlide)"
       v-bind="imageSettings"
     >
-      <div v-for="image in images" :key="image.id" class="sm:h-80">
+      <div
+        v-for="image in this.compressedImages"
+        :key="image.id"
+        class="sm:h-80"
+      >
         <img
           :src="require(`~/static/images/modem-images/${slug}/${image}`)"
           alt=""
@@ -16,7 +20,7 @@
     <agile ref="thumb" v-bind="thumbSettings" class="mt-4 relative">
       <div
         @click="$refs.main.goTo(index)"
-        v-for="(image, index) in images"
+        v-for="(image, index) in this.thumbnailImages"
         :key="index"
         class="cursor-pointer border thumb p-2 hover:border-blue-600"
       >
@@ -63,15 +67,31 @@
 export default {
   props: ["slug"],
   computed: {
-    images: function () {
-      let images = require
+    imageNames: function () {
+      let imageNames = require
         .context(`@/static/images/modem-images/comset_cm685vx`, true)
         .keys();
 
-      return images.map(function (fileName) {
+      imageNames = imageNames.map(function (fileName) {
         // Ignore the directory './' in string
         return fileName.slice(2);
       });
+
+      return imageNames;
+    },
+    compressedImages: function () {
+      let compressedImages = this.imageNames.filter(function (fileName) {
+        let prefix = fileName.split("_")[0];
+        return prefix === "compressed";
+      });
+      return compressedImages;
+    },
+    thumbnailImages: function () {
+      let thumbnailImages = this.imageNames.filter(function (fileName) {
+        let prefix = fileName.split("_")[0];
+        return prefix === "150";
+      });
+      return thumbnailImages;
     },
   },
   data() {
