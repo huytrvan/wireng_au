@@ -1,19 +1,24 @@
 <template>
   <div class="">
-    {{ this.file.spec }}
+    <ModemBreadCrumb class="mb-8" :jsonData="jsonData" />
+    <div class="grid grid-cols-1 sm:grid-cols-2 mb-8">
+      <ModemGallery class="order-2 sm:order-1" :slug="slug" />
+      <ModemInfo class="order-1 sm:order-2" :jsonData="jsonData" />
+    </div>
+    <ModemSpecTable class="" :file="jsonData" />
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      slug: "comset_cm658vx",
+      slug: "comset_cm685vx",
     };
   },
   computed: {
-    file: function () {
-      let file = require(`@/static/json/${this.slug}.json`);
-      return file;
+    jsonData: function () {
+      let jsonData = require(`@/static/json/${this.slug}.json`);
+      return jsonData;
     },
   },
 };
