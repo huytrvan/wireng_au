@@ -1,29 +1,54 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-8" :slug="slug" />
+    <ModemBreadCrumb class="mb-8" :urlPaths="urlPaths" />
     <div class="grid grid-cols-1 sm:grid-cols-2 mb-8">
-      <ModemGallery class="order-2 sm:order-1" :slug="slug" />
-      <ModemInfo class="order-1 sm:order-2" :jsonData="jsonData" />
+      <ModemGallery
+        class="order-2 sm:order-1"
+        :urlPaths="urlPaths"
+        :brand="brand"
+        :model="model"
+        :imageCount="imageCount"
+      />
+      <ModemInfo class="order-1 sm:order-2" :brand="brand" :model="model" />
     </div>
-    <ModemSpecTable class="" :file="jsonData" />
+    <ModemSpecTable class="" :file="tableData" />
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      brand: "comset",
-      model: "cm685vx",
+      url: this.$route.path,
     };
   },
   computed: {
-    slug: function () {
-      return `modem/${this.brand}/${this.model}`;
+    urlPaths: function () {
+      // ignore first '/'
+      let urlPaths = this.url.slice(1);
+      urlPaths = urlPaths.split("/");
+      return urlPaths;
     },
     jsonData: function () {
-      let jsonData = require(`@/static/json/${this.slug}.json`);
+      let brand = this.urlPaths[1];
+      let model = this.urlPaths[2];
+      let fileName = `${brand}_${model}`;
+      let jsonData = require(`@/static/json/${fileName}.json`);
       return jsonData;
+    },
+    brand: function () {
+      return this.jsonData[1][1];
+    },
+    model: function () {
+      return this.jsonData[2][1];
+    },
+    imageCount: function () {
+      return this.jsonData[0][1];
+    },
+    tableData: function () {
+      return this.jsonData.slice(1);
     },
   },
 };
 </script>
+
+//     
