@@ -5,12 +5,10 @@
 </template>
 <script>
 export default {
-  props: ["jsonData"],
+  props: ["brand", "model"],
   computed: {
     pageTitle: function () {
-      let brand = this.jsonData[0][1];
-      let model = this.jsonData[1][1];
-      return `${brand} ${model} Modem Router`;
+      return `${this.brand} ${this.model} Modem Router`;
     },
   },
 };
