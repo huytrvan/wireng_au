@@ -12,13 +12,17 @@
 export default {
   data() {
     return {
-      slug: "comset_cm685vx",
+      brand: "comset",
+      model: "cm685vx",
     };
   },
   computed: {
     jsonData: function () {
       let jsonData = require(`@/static/json/${this.slug}.json`);
       return jsonData;
+    },
+    slug: function () {
+      return `${this.brand}_${this.model}`;
     },
   },
 };
