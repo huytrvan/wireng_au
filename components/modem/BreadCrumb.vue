@@ -4,40 +4,39 @@
       <NuxtLink to="/" class="text-blue-400 hover:underline"> Home </NuxtLink>
       /
     </span>
-    <span v-for="url in otherUrls" :key="url.id">
+    <span v-for="otherPath in otherPaths" :key="otherPath.id">
       <NuxtLink
-        :to="'/' + url.toLowerCase()"
+        :to="'/' + otherPath.toLowerCase()"
         class="text-blue-400 hover:underline"
-        >{{ url }}
+        >{{ otherPath }}
       </NuxtLink>
       /
     </span>
-    <span>{{ currentUrl }}</span>
+    <span>{{ currentPath }}</span>
   </div>
 </template>
 <script>
 export default {
-  props: ["slug"],
+  props: ["urlPaths"],
   computed: {
-    slugItems: function () {
-      let slugItems = this.slug.split("/");
-      slugItems = slugItems.map(function (value) {
+    urlPathsCapitalized: function () {
+      let urlPathsCapitalized = this.urlPaths.map(function (value) {
         let capitalizedFirstLetter = value[0].toUpperCase();
         let theRest = value.slice(1);
         return capitalizedFirstLetter + theRest;
       });
-      return slugItems;
+      return urlPathsCapitalized;
     },
     totalItems: function () {
-      return this.slugItems.length;
+      return this.urlPathsCapitalized.length;
     },
-    currentUrl: function () {
-      let currentUrl = this.slugItems[this.totalItems - 1];
-      return currentUrl;
+    currentPath: function () {
+      let currentPath = this.urlPathsCapitalized[this.totalItems - 1];
+      return currentPath;
     },
-    otherUrls: function () {
-      let otherUrls = this.slugItems.slice(0, this.totalItems - 1);
-      return otherUrls;
+    otherPaths: function () {
+      let otherPaths = this.urlPathsCapitalized.slice(0, this.totalItems - 1);
+      return otherPaths;
     },
   },
 };
