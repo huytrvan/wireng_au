@@ -2,7 +2,7 @@
   <div class="">
     <ModemBreadCrumb class="mb-8" :slug="slug" />
     <h1 class="text-2xl text-gray-700 mb-4">{{ brandCapitalized }} Modems</h1>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
       <NuxtLink
         :to="`${brand}/${model.toLowerCase()}`"
         v-for="(model, index) in models"
@@ -14,7 +14,7 @@
             require(`@/static/images/modem-images/${brand}_${model.toLowerCase()}/300_0.jpg`)
           "
           alt=""
-          class="object-contain min-w-[5rem] h-28 md:h-40 mx-auto"
+          class="object-contain min-w-[10rem] h-28 md:h-40 mx-auto"
         />
         <h2 class="text-center">
           {{ `${brandCapitalized} ${model}` }}
