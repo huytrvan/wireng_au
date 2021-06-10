@@ -1,8 +1,8 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-8" :slug="slug" />
+    <ModemBreadCrumb class="mb-4" :urlPaths="urlPaths" />
     <h1 class="text-2xl text-gray-700 mb-4">{{ brandCapitalized }} Modems</h1>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
       <NuxtLink
         :to="`${brand}/${model.toLowerCase()}`"
         v-for="(model, index) in models"
@@ -14,9 +14,9 @@
             require(`@/static/images/modem-images/${brand}_${model.toLowerCase()}/300_0.jpg`)
           "
           alt=""
-          class="object-contain min-w-[10rem] h-28 md:h-40 mx-auto"
+          class="object-contain min-w-[10rem] h-28 md:h-44 mx-auto"
         />
-        <h2 class="text-center">
+        <h2 class="text-center text-lg">
           {{ `${brandCapitalized} ${model}` }}
         </h2>
       </NuxtLink>
@@ -27,11 +27,19 @@
 export default {
   data() {
     return {
-      brand: "comset",
-      slug: "modem/comset",
+      url: this.$route.path,
     };
   },
   computed: {
+    urlPaths: function () {
+      // ignore first '/'
+      let urlPaths = this.url.slice(1);
+      urlPaths = urlPaths.split("/");
+      return urlPaths;
+    },
+    brand: function () {
+      return this.urlPaths[1];
+    },
     jsonData: function () {
       let jsonData = require(`@/static/json/${this.brand}.json`);
       return jsonData;
