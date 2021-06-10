@@ -17,12 +17,12 @@ export default {
     };
   },
   computed: {
+    slug: function () {
+      return `${this.brand}_${this.model}`;
+    },
     jsonData: function () {
       let jsonData = require(`@/static/json/${this.slug}.json`);
       return jsonData;
-    },
-    slug: function () {
-      return `${this.brand}_${this.model}`;
     },
   },
 };
