@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-8" :jsonData="jsonData" />
+    <ModemBreadCrumb class="mb-8" :slug="slug" />
     <div class="grid grid-cols-1 sm:grid-cols-2 mb-8">
       <ModemGallery class="order-2 sm:order-1" :slug="slug" />
       <ModemInfo class="order-1 sm:order-2" :jsonData="jsonData" />
@@ -18,7 +18,7 @@ export default {
   },
   computed: {
     slug: function () {
-      return `${this.brand}_${this.model}`;
+      return `modem/${this.brand}/${this.model}`;
     },
     jsonData: function () {
       let jsonData = require(`@/static/json/${this.slug}.json`);
