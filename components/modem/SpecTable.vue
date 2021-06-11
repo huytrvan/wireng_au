@@ -13,7 +13,7 @@
               :class="
                 data[1] === ''
                   ? 'bg-gray-500 text-gray-50'
-                  : 'text-gray-700 border-t border-b border-gray-200'
+                  : 'text-gray-700 border-t border-b lg:w-1/4'
               "
               :colspan="data[1] === '' ? 2 : 1"
             >
@@ -21,12 +21,11 @@
             </td>
             <td
               :class="{
-                'py-2 pl-2 sm:p-3 align-top border-t border-b border-gray-200':
-                  data[1] !== '',
+                'py-2 pl-2 sm:p-3 align-top border-t border-b': data[1] !== '',
               }"
             >
               <p
-                :class="{ 'lg:w-3/4': data[1] !== '' }"
+                :class="{ 'lg:w-1/4': data[1] !== '' }"
                 v-html="getLineBreak(data[1])"
               ></p>
             </td>
