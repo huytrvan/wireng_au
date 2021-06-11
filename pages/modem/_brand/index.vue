@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-4" :urlPaths="urlPaths" />
+    <ModemBreadCrumb class="mb-8" :urlPaths="urlPaths" />
     <h1 class="text-2xl text-gray-700 mb-4">{{ brandCapitalized }} Modems</h1>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
       <NuxtLink
