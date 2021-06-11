@@ -42,7 +42,9 @@ export default {
       return this.jsonData[2][1];
     },
     modelSlug: function () {
-      let modelSlug = this.model.split(" ").join("-").toLowerCase();
+      // remove illegal characters, ex: '!'
+      let modelSlug = this.model.replace(/[!]/g, "-");
+      modelSlug = modelSlug.split(" ").join("-").toLowerCase();
       return modelSlug;
     },
     imageCount: function () {

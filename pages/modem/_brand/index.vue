@@ -53,7 +53,10 @@ export default {
     },
     modelSlugs: function () {
       let modelSlugs = this.models.map(function (value) {
-        return value.split(" ").join("-");
+        // remove illegal character, like: '!'
+        value = value.replace(/[!]/g, "-");
+        value = value.split(" ").join("-");
+        return value;
       });
       return modelSlugs;
     },
