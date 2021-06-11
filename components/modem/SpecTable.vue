@@ -2,10 +2,10 @@
   <div class="">
     <h2 class="font-bold mb-2">Specification</h2>
     <div
-      class="overflow-x-scroll overflow-y-hidden relative"
-      :class="{ 'h-48': !isTableExpanded }"
+      class="overflow-x-scroll sm:overflow-x-visible relative"
+      :class="{ 'h-48 overflow-y-hidden': !isTableExpanded }"
     >
-      <table class="">
+      <table class="w-full">
         <tbody>
           <tr v-for="data in file" :key="data.id">
             <td
