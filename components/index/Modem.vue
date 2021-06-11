@@ -30,7 +30,7 @@ export default {
         Asus: "asus.png",
         AVM: "avm.png",
         Comset: "comset.jpg",
-        "D-Link": "d-link.png",
+        // "D-Link": "d-link.png",
         "GL-inet": "gl-inet.png",
         Huawei: "huawei.jpg",
         NetComm: "netcomm.jpg",
@@ -40,7 +40,7 @@ export default {
         "Tp-Link": "tplink.jpg",
         VodaFone: "vodafone.png",
         Wavlink: "wavlink.jpg",
-        ZTE: "zte.jpg",
+        // ZTE: "zte.jpg",
       },
     };
   },
