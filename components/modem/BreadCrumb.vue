@@ -4,11 +4,11 @@
       <NuxtLink to="/" class="text-blue-400 hover:underline"> Home </NuxtLink>
       /
     </span>
-    <span v-for="otherPath in otherPaths" :key="otherPath.id">
+    <span v-for="(path, index) in progressivePaths" :key="index">
       <NuxtLink
-        :to="'/' + otherPath.toLowerCase()"
+        :to="'/' + path.toLowerCase()"
         class="text-blue-400 hover:underline"
-        >{{ otherPath }}
+        >{{ otherPaths[index] }}
       </NuxtLink>
       /
     </span>
@@ -37,6 +37,15 @@ export default {
     otherPaths: function () {
       let otherPaths = this.urlPathsCapitalized.slice(0, this.totalItems - 1);
       return otherPaths;
+    },
+    progressivePaths: function () {
+      let otherPaths = this.otherPaths;
+      let progressivePaths = [];
+      for (let i = 0; i < otherPaths.length; i++) {
+        let value = otherPaths.slice(0, i + 1).join("/");
+        progressivePaths.push(value);
+      }
+      return progressivePaths;
     },
   },
 };
