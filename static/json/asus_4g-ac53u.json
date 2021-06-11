@@ -1,7 +1,11 @@
 [
     [
+        "Image Count",
+        5
+    ],
+    [
         "Brand",
-        "ASUS "
+        "ASUS"
     ],
     [
         "Model Number",
@@ -21,10 +25,6 @@
     ],
     [
         "Product Dimensions ",
-        "11.8 x 13.7 x 5.8 cm; 700 Grams "
-    ],
-    [
-        "11.8 x 13.7 x 5.8 centimetres ",
-        "700 g "
+        "11.8 x 13.7 x 5.8 cm; 700 Grams"
     ]
 ]
