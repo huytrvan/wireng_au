@@ -5,7 +5,7 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
       <NuxtLink
         :to="`${brand}/${model.toLowerCase()}`"
-        v-for="(model, index) in models"
+        v-for="(model, index) in modelSlugs"
         :key="index"
         class="hover:text-blue-600 inline-block"
       >
@@ -50,6 +50,12 @@ export default {
         return value;
       });
       return models;
+    },
+    modelSlugs: function () {
+      let modelSlugs = this.models.map(function (value) {
+        return value.split(" ").join("-");
+      });
+      return modelSlugs;
     },
     brandCapitalized: function () {
       let brandCapitalized = this.brand

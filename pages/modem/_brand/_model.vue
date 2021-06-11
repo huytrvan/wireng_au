@@ -6,7 +6,7 @@
         class="order-2 sm:order-1"
         :urlPaths="urlPaths"
         :brand="brand"
-        :model="model"
+        :model="modelSlug"
         :imageCount="imageCount"
       />
       <ModemInfo class="order-1 sm:order-2" :brand="brand" :model="model" />
@@ -40,6 +40,10 @@ export default {
     },
     model: function () {
       return this.jsonData[2][1];
+    },
+    modelSlug: function () {
+      let modelSlug = this.model.split(" ").join("-").toLowerCase();
+      return modelSlug;
     },
     imageCount: function () {
       return this.jsonData[0][1];
