@@ -84,6 +84,7 @@ export default {
         speed: 1,
         navButtons: false,
         infinite: false,
+        dots: false,
       },
       thumbnailSettings: {
         slidesToShow: 5,
