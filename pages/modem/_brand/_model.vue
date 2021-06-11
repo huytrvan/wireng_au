@@ -5,7 +5,7 @@
       <ModemGallery
         class="order-2 sm:order-1"
         :urlPaths="urlPaths"
-        :brand="brand"
+        :brand="brandSlug"
         :model="modelSlug"
         :imageCount="imageCount"
       />
@@ -37,6 +37,11 @@ export default {
     },
     brand: function () {
       return this.jsonData[1][1];
+    },
+    brandSlug: function () {
+      let brandSlug = this.brand.replace(/[!.]/g, "-");
+      brandSlug = brandSlug.split(" ").join("-").toLowerCase();
+      return brandSlug;
     },
     model: function () {
       return this.jsonData[2][1];
