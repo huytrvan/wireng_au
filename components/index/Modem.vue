@@ -6,7 +6,7 @@
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <NuxtLink
-        to="/"
+        :to="`modem/${brand.toLowerCase()}`"
         v-for="(image, brand) in images"
         :key="brand.id"
         class="block shadow hover:shadow-lg border"

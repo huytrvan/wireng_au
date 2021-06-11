@@ -1,7 +1,7 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-8" :urlPaths="urlPaths" />
-    <h1 class="text-2xl text-gray-700 mb-4">{{ brandCapitalized }} Modems</h1>
+    <ModemBreadCrumb class="mb-4" :urlPaths="urlPaths" />
+    <h1 class="mb-4 text-xl text-gray-700">{{ brandCapitalized }} Modem</h1>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
       <NuxtLink
         :to="`${brand}/${model.toLowerCase()}`"
@@ -46,7 +46,7 @@ export default {
     },
     models: function () {
       let models = this.jsonData.map(function (value) {
-        value = value[0][1];
+        value = value[1];
         return value;
       });
       return models;

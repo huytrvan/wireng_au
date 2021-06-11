@@ -7,7 +7,7 @@
     >
       <table class="w-full">
         <tbody>
-          <tr v-for="data in file" :key="data.id">
+          <tr v-for="data in tableData" :key="data.id">
             <td
               class="pl-1 py-2 sm:p-3 align-top"
               :class="
@@ -25,9 +25,10 @@
                   data[1] !== '',
               }"
             >
-              <p :class="{ 'lg:w-3/4': data[1] !== '' }">
-                {{ data[1] }}
-              </p>
+              <p
+                :class="{ 'lg:w-3/4': data[1] !== '' }"
+                v-html="getLineBreak(data[1])"
+              ></p>
             </td>
           </tr>
         </tbody>
@@ -59,11 +60,17 @@
 </template>
 <script>
 export default {
-  props: ["file"],
+  props: ["tableData"],
   data() {
     return {
       isTableExpanded: false,
     };
+  },
+  methods: {
+    getLineBreak: function (data) {
+      let lineBreak = data.split("\n").join("<br/>");
+      return lineBreak;
+    },
   },
 };
 </script>

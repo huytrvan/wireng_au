@@ -11,7 +11,7 @@
       />
       <ModemInfo class="order-1 sm:order-2" :brand="brand" :model="model" />
     </div>
-    <ModemSpecTable class="" :file="tableData" />
+    <ModemSpecTable class="" :tableData="tableData" />
   </div>
 </template>
 <script>
