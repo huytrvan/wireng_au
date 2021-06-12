@@ -49,6 +49,8 @@ export default {
     modelSlug: function () {
       // remove illegal characters, ex: '!'
       let modelSlug = this.model.replace(/[!]/g, "-");
+      // remove text between bracket
+      modelSlug = modelSlug.replace(/\([^()]*\)/g, "").trim();
       modelSlug = modelSlug.split(" ").join("-").toLowerCase();
       return modelSlug;
     },

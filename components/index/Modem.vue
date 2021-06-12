@@ -36,11 +36,12 @@ export default {
         Kuwfi: "kuwfi.png",
         NetComm: "netcomm.jpg",
         NetGear: "netgear.png",
+        Optus: "optus.png",
         Telstra: "telstra.png",
         Tenda: "tenda.webp",
         "Tp-Link": "tplink.jpg",
         VodaFone: "vodafone.png",
-        Wavlink: "wavlink.jpg",
+        // Wavlink: "wavlink.jpg",
         // ZTE: "zte.jpg",
       },
     };

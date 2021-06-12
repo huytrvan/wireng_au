@@ -13,7 +13,7 @@
               :class="
                 data[1] === ''
                   ? 'bg-gray-500 text-gray-50'
-                  : 'text-gray-700 border-t border-b lg:w-1/4'
+                  : 'text-gray-700 border-t border-b'
               "
               :colspan="data[1] === '' ? 2 : 1"
             >
@@ -25,7 +25,7 @@
               }"
             >
               <p
-                :class="{ 'lg:w-1/4': data[1] !== '' }"
+                :class="{ 'lg:w-3/4': data[1] !== '' }"
                 v-html="getLineBreak(data[1])"
               ></p>
             </td>
@@ -35,7 +35,7 @@
       <div
         v-show="isTableExpanded == false"
         class="
-          h-4
+          h-3
           w-full
           opacity-50
           bg-gradient-to-b
