@@ -1,0 +1,70 @@
+[
+    [
+        "Image Count",
+        3
+    ],
+    [
+        "Brand",
+        "NetComm"
+    ],
+    [
+        "Model",
+        "NF18ACV"
+    ],
+    [
+        "PACKAGE INCLUDES",
+        "NetComm Wireless VDSL2/ADSL2+ Dual Band AC1600 Wireless Gigabit Gateway with VoIP\nPower Adapter\nPrinted Quick Start Guide\nEthernet Cable (1.5m, RJ45)\nPhone Cable (1.5m, RJ11)\nWireless Security Card Warranty Card"
+    ],
+    [
+        "ENVIRONMENTAL AND PHYSICAL",
+        "Operating temperature: 0-40 C,\nHumidity: 10%-95% non-condensing\nStorage temperature: -10-60 C,\nHumidity: 5%-95% non-condensing\nDC Input Voltage: 12V/2A\nDimensions: 216 (w) x 174 (h) x 28 (d) mm\nWeight: 558 grams"
+    ],
+    [
+        "DEVICE INTERFACE",
+        "1 x RJ45 10/100/1000Mbps WAN port\n1 x ADSL / VDSL port\n4 x RJ45 10/100/1000Mbps LAN ports\n2 x RJ11 Phone ports (VoIP)\n1 x Reset button\n2 x WPS buttons (2.4GHz and 5GHz)\n1 x Power jack\n1 x Power switch LED (Power/DSL/Internet/WAN/LAN1-4/2.4GHz/5GHz/WPS/USB1-2/ Phone1-2)"
+    ],
+    [
+        "VDSL",
+        "PPPoE/PPPoA/IPoA/ Static IP/Dynamic IP/Bridge\nITU-T G.993.2 VDSL2\n Supports 8a,8b,12a,12b,17a profile\nSupports ATM and PTM\nSupports G.INP"
+    ],
+    [
+        "ADSL2+",
+        "PPPoE/PPPoA/IPoA/Static IP/Dynamic IP/Bridge\nITU G.992.1 (G.dmt)\n ITU G.992.2 (G.lite)\nITU G.992.3\nITU G.992.3 (Annex J)\nITU G.992.3 (Annex L)\nITU G.992.5\nITU G.992.5 (Annex M)\nSupports multiple PVCs"
+    ],
+    [
+        "ETHERNET WAN",
+        "PPPoE, DHCP client, Static IP"
+    ],
+    [
+        "WIRELESS",
+        "Compatible with IEEE 802.11b, IEEE 802.11g, IEEE 802.11n and IEEE 802.11ac\nSupports concurrent dual band (2.4GHz/5GHz) wireless\nSSID broadcast or in stealth mode\nAuto/Manual Channel selection\nWEP/WPA/WPA-PSK/WPA2/WPA2-PSK\nWPS button (Wi-Fi Protected Setup)"
+    ],
+    [
+        "ANTENNAS",
+        "3x3 Internal antennas (802.11ac)\n2x2 Internal antennas (802.11n)"
+    ],
+    [
+        "VoIP PROTOCOL",
+        "SIP2.0\nG.711, G.723 and G.726\nFAX T.38 FAX Relay"
+    ],
+    [
+        "MEDIA",
+        "File sharing DLNA"
+    ],
+    [
+        "SECURITY",
+        "Firewall MAC filtering"
+    ],
+    [
+        "ROUTING",
+        "Static Route\nDynamic Route (RIP v1/v2)\nDMZ\nSupports Layer 2 Bridge Mode"
+    ],
+    [
+        "ADMINISTRATION",
+        "QoS\nSNMP\nUPnP\nSyslog\nWeb-based UI\nRemote Login\nTR-069 Auto provisioning\nBackup/Restore Settings"
+    ],
+    [
+        "COMPLIANCE",
+        "RCM, NZ Telepermit"
+    ]
+]

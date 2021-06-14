@@ -1,0 +1,78 @@
+[
+    [
+        "Image Count",
+        2
+    ],
+    [
+        "Brand",
+        "Comset"
+    ],
+    [
+        "Model",
+        "CM510Q-W"
+    ],
+    [
+        "Cellular Frequencies",
+        "4G LTE FDD​B1 (2100) B3 (1800) B5 (850) B7 (2600) B8 (900) B20 (800) B28 (700) B32 (1500)​4G LTE TDD​B38 (2600) B40 (2300) B41 (2500)​2 x CA Carrier Aggregation​B1+B1/B5/B8/B20/B28; B3+B3/B5/B7/B8/B20/B28; B7+B5/B7/B8/B20/B28; B20+B32; B38+B38; B40+B40; B41+B41 DC-HSPA+/HSPA+/HSPA/WCDMA B1/B2/B5/B8"
+    ],
+    [
+        "Ethernet Standards",
+        "10/100/1000 Base-T (IEEE 802.3) Mode: Full or half duplex (self-adaptive"
+    ],
+    [
+        "WLAN",
+        "Standard: IEEE 802.11 b/g/n/ac Security: WEP, WPA and WPA2 encryption Mode: AP, Client, station, bridge mode support"
+    ],
+    [
+        "Hardware",
+        "CPU: Cortex A7 Core 900MHz/867Mbps Memory: 128Mb Flash, 1Gb DDR3 RAM"
+    ],
+    [
+        "Route Protocol",
+        "Static route RIPv2/OSPF dynamic route"
+    ],
+    [
+        "VPN Tunnel",
+        "IPSec PPTP client/server L2TP client GRE OpenVPN"
+    ],
+    [
+        "Firewall & Filtering",
+        "IP packet/Domain/MAC address filtering NAT DMZ"
+    ],
+    [
+        "GPS (Optional)",
+        "GPS sensitivity: -160dBm GPS accuracy: 2.5m CEP Update Rate: 1Hz@5Hz Time tFirst Fix: Cold Status 27s, Hot status 1s Protocol: NMEA-0183 2.3V"
+    ],
+    [
+        "Device Management",
+        "Local or remote web browser CLI/Telnet command M2M management platform (optional) SSH configuration (optional)"
+    ],
+    [
+        "LED indicators",
+        "PWR WLAN Signal ERR"
+    ],
+    [
+        "Power Consumption",
+        "Power Consumption: Operation mode: 460mA@+12VDC Idle mode: 400mA@+12VDC"
+    ],
+    [
+        "Power Supply",
+        "7.5VDC - 32VDC"
+    ],
+    [
+        "Interfaces",
+        "4× Gigabit Ethernet (3xLAN,1xWAN/LAN) 1× Console Port 8 Pins Terminal Block contents: 1×RS232 2×Digital Input 1×Digital Output 1×DC power interface(Anti-reverse) 4× SMA-K antenna interface 2× Standard SIM/R-UIM Slot 1x expansion USB 3.0"
+    ],
+    [
+        "Other",
+        "Dimension: 132mm x 112mm x 44mm Weight: 400g Operating temperature: -30 ~ +70 degree C Storage temperature: -40 ~ +75 degree C Relative humidity: <95% (non-condensing) Warrantee: one year"
+    ],
+    [
+        "Certifications",
+        "RCM CE RoHS Modem is approved by Telstra"
+    ],
+    [
+        "Package Content",
+        "1x CM510Q-W 4G Router 2x Wi-Fi dual band rubber antennas 2x 4G Magnetic base antennas 1x Ethernet Cable 1x Power Supply Adapter 1x DIN Rail bracket"
+    ]
+]

@@ -91,3 +91,6 @@ sw.*
 
 # Ignore images because they are large files
 static/images/
+
+# Ignore Bash for now
+*.bash

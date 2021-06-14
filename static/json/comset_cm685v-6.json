@@ -1,0 +1,170 @@
+[
+    [
+        "Image Count",
+        5
+    ],
+    [
+        "brand",
+        "Comset"
+    ],
+    [
+        "model",
+        "CM685V-6"
+    ],
+    [
+        "WIRELESS",
+        ""
+    ],
+    [
+        "Compatible Mobile Networks",
+        "4G/ 4GX UMTS WCDMA (HSUPA/ HSDPA/ HSPA/ HSPA+/ DC-HSPA+) GSM EDGE GSM GPRS"
+    ],
+    [
+        "Cellular Frequency",
+        "4G LTE FDD B1 (2100) B3 (1800) B5 (850) B7 (2600) B8 (900) B20 (800) B28 (700) B32 (1500) 4G LTE TDD B38 (2600) B40 (2300) B41 (2500) 2 x CA Carrier Aggregation B1+B1/B5/B8/B20/B28; B3+B3/B5/B7/B8/B20/B28; B7+B5/B7/B8/B20/B28; B20+B32; B38+B38; B40+B40; B41+B41 WCDMA 850/ 900/ 1800/ 2100Mhz"
+    ],
+    [
+        "Bandwidth",
+        "4G LTE FDD/ 4GX LTE-A\nDownlink 300Mbps\nUplink 50Mbps 4G LTE TDD\nDownlink 300Mbps\nUplink 50Mbps DC HSPA+\nDownlink 21/42Mbps\nUplink 5.76Mbps HSPA\nDownlink 14.4Mbps\nUplink 5.76Mbps HSUPA\nDownlink 7.2Mbps\nUplink 5.76Mbps HSDPA\nDownlink 7.2Mbps\nUplink 384 Kbps WCDMA/UMTS\nDownlink 384 Kbps\nUplink 384 Kbps EDGE\nDownlink 236 Kbps\nUplink 118 Kbps GPRS\nDownlink 85.6 Kbps\nUplink 42.8 Kbps"
+    ],
+    [
+        "WiFi",
+        "802.11b/g/n; 300Mbps"
+    ],
+    [
+        "SMS",
+        "SMS call to control router tbe online, offline, reboot, status info, alarm, WiFi on, WiFi off"
+    ],
+    [
+        "VLAN",
+        "ID tagging Supported"
+    ],
+    [
+        "Fail Over Redundancy (network backup feature)",
+        "Auto-dial feature, keep alive link\nCellular (2G/3G/4G), RJ45 WAN (xDSL, DHCP, Fixed IP), WiFi client"
+    ],
+    [
+        "DTU",
+        "DTU feature, serial RS232 to Cellular Gateway"
+    ],
+    [
+        "VPN",
+        "OpenVPN, IPSec, L2TP, PPTP\nServer and Client supported"
+    ],
+    [
+        "Firmware upgrade",
+        "Supported locally and remotely"
+    ],
+    [
+        "Protocol support",
+        "TCP, UDP, SMTP, POP, ICMP, FTP, PPP, PPPoE, DHCP, DDNS, DNS, SNMP, WPS, DMZ, Syslog (local and remote), NAT, xDSL, NTP, QoS, SNMP, Dynamic routing (OSPF, OSPF6, RIP, RIPng, BGP), support firmware update locally and remotely"
+    ],
+    [
+        "Security",
+        "Supports 64/128 bits WEP, 802.1x, WPA and WPA2\nSupports WDS\nTKIP, AES encryption\nSupports WPA1/2- 802.1x\nSupports EAP- TLS, TTLS, LEAP, PEAP\nSupports access with username and password\nSupports access control base WAN/LAN interface\nSupports access control base source IP address\nDefence DOS attack, supports SYN flooding, IP surfing, ping of death, fragile, teardrop, land\nSupports PAP and CHAP\nSupports IP filtering"
+    ],
+    [
+        "Advanced Firewall Features",
+        "Network Address Translation (NAT)\nStateful Packet Inspection (SPI)\nVPN Pass-through"
+    ],
+    [
+        "Media Access Control",
+        "CSMA/CA with ACK"
+    ],
+    [
+        "Certifications",
+        "Radius Client"
+    ],
+    [
+        "Interfaces",
+        ""
+    ],
+    [
+        "LAN",
+        "1 x 10/100M LAN port (RJ45 interface)\n1 x 10/100M LAN/WAN port (RJ45 interface)"
+    ],
+    [
+        "Antennas",
+        "2 x antennas for WiFi (detachable SMA interface x 2)\n2 x antennas for Cellular (detachable SMA interface x 2, cellular supports diversity receiving MIMO)"
+    ],
+    [
+        "LED",
+        "SYS*1\nVPN*1\nSIGNAL*1\nCELL*1\nWAN*1\nLAN*1\nWiFi*1"
+    ],
+    [
+        "Serial port",
+        "RS232 built-in terminal block interface"
+    ],
+    [
+        "AT command",
+        "Supported"
+    ],
+    [
+        "UIM/SIM Card Slot",
+        "Supports 1.8/3V UIM/SIM cards, one sim card slot"
+    ],
+    [
+        "DC Jack",
+        "Twtypes of power input 2.5mm DC jack * 1 Terminal block * 1"
+    ],
+    [
+        "Power",
+        ""
+    ],
+    [
+        "Power supply",
+        "DC5V-40V, typical DC9V1A or 12V 1A, 12V car use supported"
+    ],
+    [
+        "Power consumption",
+        "Current Idle 122mA@12VDC Max 208mA@12VDC Average 167mA@12VDC\nPower Idle 1.2W@12VDC Max 2.5W@12VDC Average 2W@12VDC"
+    ],
+    [
+        "Software",
+        ""
+    ],
+    [
+        "Device Management",
+        "WEB interface (Internet Explorer v6 or later, Mozilla Firefox v1.5 or later, Chrome, Opera, Safari or other Java-enabled browsers)"
+    ],
+    [
+        "Minimum System Requirements",
+        "Mobile Internet Access Subscription and Internet PC Adapter\nComputer with: Windows 7, 8, 10, Vista, Windows XP SP2, Windows 2000 SP4 or Mac OS X(v10.4/v10.3), Linux Internet Explorer 6 or Mozilla Firefox CD-ROM Drive Network Interface Card"
+    ],
+    [
+        "Physical",
+        ""
+    ],
+    [
+        "Operating Temperature",
+        "Working -40°C t75°C"
+    ],
+    [
+        "Humidity",
+        "95% Maximum (non-condensing)"
+    ],
+    [
+        "Dimensions",
+        "With case 100mm x 60mm x 21mm"
+    ],
+    [
+        "Weight",
+        "220g (not including antennas)\n330g (including antennas)\n650g (including all accessories)"
+    ],
+    [
+        "Other",
+        ""
+    ],
+    [
+        "Warranty",
+        "1 Year"
+    ],
+    [
+        "Regulatory Compliance",
+        "RCM, CE, RoHS\nModem is approved by Telstra"
+    ],
+    [
+        "Package Contents",
+        "CM685 Router\nCAT5 Ethernet Cable\nSerial Cable\nPower Adapter\n4 x Antennas (2 x Cell, 2 x WiFi)"
+    ]
+]
