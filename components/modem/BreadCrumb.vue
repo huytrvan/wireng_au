@@ -17,8 +17,18 @@
 </template>
 <script>
 export default {
-  props: ["urlPaths"],
+  data() {
+    return {
+      url: this.$route.path,
+    };
+  },
   computed: {
+    urlPaths: function () {
+      // ignore first '/'
+      let urlPaths = this.url.slice(1);
+      urlPaths = urlPaths.split("/");
+      return urlPaths;
+    },
     urlPathsCapitalized: function () {
       let urlPathsCapitalized = this.urlPaths.map(function (value) {
         let capitalizedFirstLetter = value[0].toUpperCase();

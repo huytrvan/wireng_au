@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="mb-4 text-gray-700 ml-1">
-      <h2 class="text-xl">Select Your Modem Router</h2>
+      <h2 id="modem-by-brand" class="text-xl">Select Your Modem Router</h2>
       <p>We will help you find the right antenna for your modem</p>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
