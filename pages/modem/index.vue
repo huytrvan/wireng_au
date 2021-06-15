@@ -14,26 +14,55 @@
         >.
       </p>
     </div>
-    <ModemItem :modemsToShow="modemsToShow" class="mb-8" />
-    <button
-      class="bg-blue-700 text-blue-50"
-      :disabled="currentPage <= 1"
-      @click="updateCurrentPage(currentPage - 1)"
-    >
-      Previous
-    </button>
-    <button
-      class="bg-blue-700 text-blue-50"
-      @click="updateCurrentPage(currentPage + 1)"
-      :disabled="currentPage >= totalPage"
-    >
-      Next
-    </button>
+    <ModemItem :modemsToShow="modemsToShow" class="mb-12" />
+    <div class="text-center">
+      <button
+        class="p-4 m-4"
+        :class="
+          currentPage <= 1 ? 'text-gray-400 cursor-default' : 'hover:underline'
+        "
+        :disabled="currentPage <= 1"
+        @click="updateCurrentPage(currentPage - 1)"
+      >
+        Previous
+      </button>
+      <button
+        class="p-4 m-2"
+        v-for="index in totalPage"
+        :key="index"
+        @click="updateCurrentPage(index)"
+        :class="
+          index === currentPage
+            ? 'border-b border-blue-700 cursor-default'
+            : 'hover:underline'
+        "
+      >
+        {{ index }}
+      </button>
+      <button
+        class="p-4 m-4"
+        :class="
+          currentPage >= totalPage
+            ? 'text-gray-400 cursor-default'
+            : 'hover:underline'
+        "
+        @click="updateCurrentPage(currentPage + 1)"
+        :disabled="currentPage >= totalPage"
+      >
+        Next
+      </button>
+    </div>
   </div>
 </template>
 <script>
 import { mapGetters, mapActions } from "vuex";
 export default {
+  scrollToTop: true,
+  watch: {
+    $route: function (from, to) {
+      window.scrollTo(0, 150);
+    },
+  },
   computed: {
     ...mapGetters("modem", ["modemsToShow", "totalPage"]),
     currentPage: function () {
