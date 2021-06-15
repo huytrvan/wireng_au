@@ -28,11 +28,11 @@
         band antenna solutions.
       </p>
       <p class="mt-2">
-        <NuxtLink to="/" class="text-blue-400 hover:underline"
+        <NuxtLink to="/" class="text-blue-500 hover:underline"
           >Wireng.com.au</NuxtLink
         >
         is the Australia & New Zealand subsidiary of
-        <a href="https://www.wireng.com" class="text-blue-400 hover:underline"
+        <a href="https://www.wireng.com" class="text-blue-500 hover:underline"
           >WirEng</a
         >
         USA.

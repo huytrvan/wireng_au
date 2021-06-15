@@ -8,7 +8,7 @@
         You can also
         <NuxtLink
           to="/#modem-by-brand"
-          class="text-blue-400 hover:underline"
+          class="text-blue-500 hover:underline"
           v-scroll-to="{ el: '#modem-by-brand' }"
           >browse modems by brand</NuxtLink
         >.
