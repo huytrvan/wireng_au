@@ -1,19 +1,19 @@
 <template>
-  <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
     <NuxtLink
       :to="`modem/${data.brandSlug}/${data.modelSlug}`"
       v-for="data in dataToShow"
       :key="data.id"
-      class="shadow hover:shadow-lg border border-gray-200 rounded p-2"
+      class="hover:text-blue-600 inline-block"
     >
       <img
         :src="
           require(`@/static/images/modem-images/${data.brandSlug}_${data.modelSlug}/300_0.jpg`)
         "
         alt=""
-        class="object-contain min-w-[10rem] h-28 md:h-44 mx-auto p-4"
+        class="object-contain min-w-[10rem] h-28 md:h-44 mx-auto"
       />
-      <h2 class="text-center">
+      <h2 class="text-center text-lg">
         {{ `${data.brand} ${data.model}` }}
       </h2>
     </NuxtLink>
