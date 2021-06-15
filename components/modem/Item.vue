@@ -11,7 +11,7 @@
           require(`@/static/images/modem-images/${data.brandSlug}_${data.modelSlug}/300_0.jpg`)
         "
         alt=""
-        class="object-contain min-w-[10rem] h-28 md:h-44 mx-auto"
+        class="object-contain min-w-[5rem] h-28 md:h-44 mx-auto"
       />
       <h2 class="text-center text-lg">
         {{ `${data.brand} ${data.model}` }}
