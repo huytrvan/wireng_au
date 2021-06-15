@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-12">
     <NuxtLink
       :to="`modem/${data.brandSlug}/${data.modelSlug}`"
       v-for="data in dataToShow"
