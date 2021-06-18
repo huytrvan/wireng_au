@@ -33,13 +33,13 @@ export default {
 }
 .contact-btn {
   @apply w-full sm:w-32;
-  @apply bg-gradient-to-b from-blue-300  to-blue-600;
-  @apply active:from-blue-400;
+  @apply bg-gradient-to-b from-blue-400  to-blue-600;
+  @apply active:from-blue-500;
   @apply text-blue-50;
   @apply p-2;
   @apply block;
   @apply rounded-sm;
-  @apply shadow hover:shadow-lg;
+  @apply shadow-sm hover:shadow-lg;
 }
 .navlink__link {
   @apply mb-1 md:my-auto;

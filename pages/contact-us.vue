@@ -8,7 +8,7 @@
       </p>
     </div>
     <form @submit.prevent="test()" class="">
-      <div class="grid grid-cols-2 gap-4 mb-8">
+      <div class="grid grid-cols-2 gap-6 mb-8">
         <div class="col-span-2">
           <label for="topic" class="contact-us__label">Topic *</label>
           <select
@@ -19,6 +19,7 @@
             class="contact-us__input p-0"
             required
           >
+            <option disable selected value="">---</option>
             <option value="Inquiry about Antennas">
               Inquiry about Antennas
             </option>
