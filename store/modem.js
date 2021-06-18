@@ -6,7 +6,7 @@ export const state = () => ({
 // getters are not functions
 export const getters = {
     modems: function () {
-        return require('@/static/json/_modems.json');
+        return require('@/static/json/modem/_modems.json');
     },
     totalPage: function (state, getters) {
         let totalModem = getters.modems.length;
