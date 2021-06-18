@@ -6,10 +6,7 @@
       <p class="">
         An extensive catalogue of all modems compatible with WirEng® antennas.
         You can also
-        <NuxtLink
-          to="/#modem-by-brand"
-          class="text-blue-500 hover:underline"
-          v-scroll-to="{ el: '#modem-by-brand' }"
+        <NuxtLink to="/#modem-by-brand" class="text-blue-500 hover:underline"
           >browse modems by brand</NuxtLink
         >.
       </p>
@@ -28,13 +25,13 @@
       </NuxtLink>
       <NuxtLink
         :to="`?page=${index}`"
-        class="p-6 sm:m-2 border-b border-white block sm:inline-block"
+        class="p-6 sm:m-2 border-b block sm:inline-block"
         v-for="index in totalPage"
         :key="index"
         :class="
           index == currentPage
             ? 'border-blue-700 cursor-default'
-            : 'hover:border-blue-500'
+            : 'hover:border-blue-500 border-white'
         "
       >
         {{ index }}

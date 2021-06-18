@@ -13,7 +13,7 @@
       :class="routeName === 'modem' ? ' border-blue-700' : 'border-white '"
       >Modem Routers</NuxtLink
     >
-    <NuxtLink to="#contact-us" class="contact-btn"> Contact Us </NuxtLink>
+    <NuxtLink to="/contact-us" class="contact-btn"> Contact Us </NuxtLink>
   </nav>
 </template>
 <script>
@@ -35,7 +35,7 @@ export default {
 .contact-btn {
   @apply w-full sm:w-32;
   @apply bg-gradient-to-b from-blue-400  to-blue-600;
-  @apply focus:from-blue-500;
+  @apply active:from-blue-500;
   @apply text-blue-50;
   @apply p-2;
   @apply block;

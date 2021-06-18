@@ -29,7 +29,6 @@ export const mutations = {
     setCurrentPage(state, { pageIndex, totalPage }) {
         if (pageIndex > 0 && pageIndex <= totalPage) {
             state.currentPage = pageIndex;
-            console.log(state.currentPage);
         }
     }
 };

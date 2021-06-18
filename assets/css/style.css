@@ -13,3 +13,11 @@ body {
   @apply shadow;
   @apply text-gray-900;
 }
+
+textarea, input{
+    @apply border;
+}
+
+textarea, input, button {
+    touch-action: manipulation;
+}

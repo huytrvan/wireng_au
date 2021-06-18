@@ -58,5 +58,6 @@ export default {
             'Roboto Condensed': true
         },
         preload: true,
+        download: true,
     }
 }
