@@ -11,7 +11,7 @@
 /* Phone screen */
 .wirenglogo {
   @apply w-48;
-  @apply border border-white lg:hover:border-blue-800;
+  @apply border-b border-white hover:border-blue-700;
 }
 
 /* Phone Rotated screen */
