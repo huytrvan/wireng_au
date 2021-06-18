@@ -32,7 +32,7 @@ export default {
       let brand = this.urlPaths[1];
       let model = this.urlPaths[2];
       let fileName = `${brand}_${model}`;
-      let jsonData = require(`@/static/json/${fileName}.json`);
+      let jsonData = require(`@/static/json/modem/${fileName}.json`);
       return jsonData;
     },
     brand: function () {

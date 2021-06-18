@@ -41,7 +41,7 @@ export default {
       return this.urlPaths[1];
     },
     jsonData: function () {
-      let jsonData = require(`@/static/json/${this.brand}.json`);
+      let jsonData = require(`@/static/json/modem/${this.brand}.json`);
       return jsonData;
     },
     models: function () {
