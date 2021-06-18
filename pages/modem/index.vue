@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-4" />
+    <BreadCrumb class="mb-4" />
     <div class="mb-12 text-gray-700">
       <h1 class="text-2xl">All 3G/ 4G/ 5G Modems</h1>
       <p class="">
@@ -11,7 +11,7 @@
         >.
       </p>
     </div>
-    <ModemItem :modemsToShow="modemsToShow" class="mb-12" />
+    <ProductItem :modemsToShow="modemsToShow" class="mb-12" />
     <div class="text-center sm:mb-12">
       <NuxtLink
         :to="`?page=${prevPage}`"
