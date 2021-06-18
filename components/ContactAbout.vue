@@ -33,7 +33,7 @@
         >
         is the Australia & New Zealand subsidiary of
         <a href="https://www.wireng.com" class="text-blue-500 hover:underline"
-          >WirEng</a
+          >WirEng®</a
         >
         USA.
       </p>
@@ -54,6 +54,7 @@
   @apply mr-4;
   @apply text-center;
   @apply hover:text-blue-500;
+  @apply rounded-sm;
 }
 .contact-about__icon-text {
   @apply uppercase;

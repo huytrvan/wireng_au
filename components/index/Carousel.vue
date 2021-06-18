@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <agile v-bind="agileSettings" class="shadow-md border">
+    <agile v-bind="agileSettings" class="shadow-md border rounded-sm">
       <div v-for="imageName in imageNames" :key="imageName.id" class="slide">
         <img
           :src="require(`@/static/images/carousels/${imageName}`)"
@@ -81,6 +81,7 @@ export default {
   @apply opacity-25;
   @apply h-3;
   @apply w-6;
+  @apply rounded-sm;
   @apply hidden;
   @apply lg:block;
 }

@@ -9,7 +9,7 @@
         :to="`modem/${brand.toLowerCase()}`"
         v-for="(image, brand) in images"
         :key="brand.id"
-        class="block shadow hover:shadow-lg border"
+        class="block shadow hover:shadow-lg border rounded-sm"
       >
         <img
           :src="require(`@/static/images/modem-brand-logos/${image}`)"

@@ -1,17 +1,16 @@
 <template>
   <nav class="navlink">
     <NuxtLink
+      to="/antenna?page=1"
       class="navlink__link"
-      :class="routeName === 'index' ? ' border-blue-700' : 'border-white '"
-      to="/"
+      :class="routeName === 'antenna' ? ' border-blue-700' : 'border-white '"
+      >Antennas & Products</NuxtLink
     >
-      Home
-    </NuxtLink>
     <NuxtLink
       to="/modem?page=1"
       class="navlink__link"
       :class="routeName === 'modem' ? ' border-blue-700' : 'border-white '"
-      >Modem Routers</NuxtLink
+      >Modems Routers</NuxtLink
     >
     <NuxtLink to="/contact-us" class="contact-btn"> Contact Us </NuxtLink>
   </nav>
@@ -34,11 +33,12 @@ export default {
 }
 .contact-btn {
   @apply w-full sm:w-32;
-  @apply bg-gradient-to-b from-blue-400  to-blue-600;
-  @apply active:from-blue-500;
+  @apply bg-gradient-to-b from-blue-300  to-blue-600;
+  @apply active:from-blue-400;
   @apply text-blue-50;
   @apply p-2;
   @apply block;
+  @apply rounded-sm;
   @apply shadow hover:shadow-lg;
 }
 .navlink__link {
