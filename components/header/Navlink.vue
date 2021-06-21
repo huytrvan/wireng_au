@@ -1,6 +1,6 @@
 <template>
   <nav class="navlink">
-    <NuxtLink to="#antennas" class="navlink__link border-white"
+    <NuxtLink to="/#antennas" class="navlink__link border-white"
       >Antennas & Products</NuxtLink
     >
     <NuxtLink
