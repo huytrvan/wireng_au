@@ -10,7 +10,7 @@
           <IconWhatsapp class="contact-about__icon-icon" />
           <p class="contact-about__icon-text">WHATSAPP</p>
         </NuxtLink>
-        <NuxtLink to="/" class="contact-about__icon-link">
+        <NuxtLink to="/contact-us" class="contact-about__icon-link">
           <IconEmail class="contact-about__icon-icon" />
           <p class="contact-about__icon-text">EMAIL</p>
         </NuxtLink>
