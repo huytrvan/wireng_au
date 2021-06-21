@@ -160,6 +160,7 @@ export default {
   @apply focus:outline-white;
   @apply rounded-sm;
   @apply focus:shadow-sm;
+  @apply appearance-none;
 }
 .contact-us__label {
   @apply block;
