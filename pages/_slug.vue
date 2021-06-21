@@ -65,8 +65,8 @@ export default {
       if (this.antennaModemList[1] === "hotspot-modems") {
         return [
           ["Test", ""],
-          ["Brand", "Hotspot"],
-          ["Model", "Modems"],
+          ["Brand", "hotspot"],
+          ["Model", "and modems"],
         ];
       }
       return require(`@/static/json/modem/${this.antennaModemList[1]}.json`);
@@ -75,7 +75,7 @@ export default {
       let modemBrand = this.modemData[1][1];
       let modemModel = this.modemData[2][1];
       let modem = `${modemBrand} ${modemModel}`;
-      let data = this.antennaData.slice(1); // ignore ImageCount
+      let data = this.antennaData.slice(1, 5); // ignore ImageCount
       data = data.map((value) => {
         value = value[1];
         //   Subtitute '{modem}' with modemModel
