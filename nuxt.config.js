@@ -4,7 +4,8 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'WirEng Australia New Zealand',
+        title: 'Extend Your 5G/4G/3G Network Signal With WirEng® Antenna And Products',
+        titleTemplate: '%s | WirEng® Australia New Zealand',
         htmlAttrs: {
             lang: 'en'
         },

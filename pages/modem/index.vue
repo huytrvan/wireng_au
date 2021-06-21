@@ -2,7 +2,7 @@
   <div class="">
     <BreadCrumb class="mb-4" />
     <div class="mb-12 text-gray-700">
-      <h1 class="text-2xl">All 3G/ 4G/ 5G Modems</h1>
+      <h1 class="text-2xl">All 5G/4G/3G Modems</h1>
       <p class="">
         An extensive catalogue of all modems compatible with WirEng® antennas.
         You can also
@@ -83,6 +83,18 @@ export default {
   },
   methods: {
     ...mapActions("modem", ["updateCurrentPage"]),
+  },
+  head: {
+    title:
+      "All 5G/4G/3G Modems For Australian & New Zealand Compatible With WirEng® Antennas And Products",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "This page contains all the Hotspots & Modems sold is Australia/ New Zealand compatible with WirEng® antennas and products",
+      },
+    ],
   },
 };
 </script>

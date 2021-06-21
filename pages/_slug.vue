@@ -91,31 +91,18 @@ export default {
     folderName: function () {
       return `antenna-images/${this.antennaModemList[0]}`;
     },
-    // brand: function () {
-    //   return this.jsonData[1][1];
-    // },
-    // brandSlug: function () {
-    //   let brandSlug = this.brand.replace(/[!.]/g, "-");
-    //   brandSlug = brandSlug.split(" ").join("-").toLowerCase();
-    //   return brandSlug;
-    // },
-    // model: function () {
-    //   return this.jsonData[2][1];
-    // },
-    // modelSlug: function () {
-    //   // remove illegal characters, ex: '!'
-    //   let modelSlug = this.model.replace(/[!]/g, "-");
-    //   // remove text between bracket
-    //   modelSlug = modelSlug.replace(/\([^()]*\)/g, "").trim();
-    //   modelSlug = modelSlug.split(" ").join("-").toLowerCase();
-    //   return modelSlug;
-    // },
-    // imageCount: function () {
-    //   return this.jsonData[0][1];
-    // },
-    // tableData: function () {
-    //   return this.jsonData.slice(1);
-    // },
+  },
+  head() {
+    return {
+      title: `${this.data[0][0]}`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: `Buy the newest ${this.data[3][0]} antenna from WirEng® or find the antennas for your 5G/4G/3G hotspots/ modems`,
+        },
+      ],
+    };
   },
 };
 </script>

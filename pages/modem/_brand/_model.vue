@@ -65,6 +65,18 @@ export default {
       return `${this.brand} ${this.model}`;
     },
   },
+  head() {
+    return {
+      title: `${this.title} - Extend Your 5G/4G/3G Network Signal With WirEng® Antennas And Products`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: `Extend your ${this.title} with WirEng® newest 5G/4G/3G antennas and products`,
+        },
+      ],
+    };
+  },
 };
 </script>
 
