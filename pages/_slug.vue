@@ -7,14 +7,17 @@
         :imageCount="antennaData[0][1]"
         class="order-2 md:order-1"
       />
-      <ProductInfo
-        class="order-1 md:order-2 mb-4 sm:mb-0"
-        :title="data[0][0]"
-      />
+      <div class="order-1 md:order-2 mb-4 sm:mb-0 sm:pl-12">
+        <ProductInfo class="mb-4" :title="data[0][0]" />
+        <ProductDistributor
+          :distributors="['BestCellDist']"
+          :link="antennaData[5][1]"
+        />
+      </div>
     </div>
     <div class="max-w-[52rem]">
       <div class="mb-8">
-        <h2 class="font-bold text-gray-700 mb-1">Description</h2>
+        <h2 class="font-bold text-gray-700 mb-4">Description</h2>
         <p
           class="mb-3.5 leading-7"
           v-for="paragraph in data[1]"
@@ -24,7 +27,7 @@
         </p>
       </div>
       <div class="">
-        <h2 class="font-bold text-gray-700 mb-1">Main Features and Benefits</h2>
+        <h2 class="font-bold text-gray-700 mb-4">Main Features and Benefits</h2>
         <ul class="list-disc pl-3">
           <li
             v-for="paragraph in data[2]"
