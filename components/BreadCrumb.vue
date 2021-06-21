@@ -1,10 +1,10 @@
 <template>
   <div class="text-sm">
-    <span>
+    <span class="mr-0.5">
       <NuxtLink to="/" class="text-blue-500 hover:underline"> Home </NuxtLink>
       /
     </span>
-    <span v-for="(path, index) in progressivePaths" :key="index">
+    <span class="mr-1" v-for="(path, index) in progressivePaths" :key="index">
       <NuxtLink
         :to="'/' + path.toLowerCase()"
         class="text-blue-500 hover:underline"

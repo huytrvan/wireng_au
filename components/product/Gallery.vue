@@ -8,9 +8,7 @@
       <div v-for="index in imageCount" :key="index" class="sm:h-80">
         <img
           :src="
-            require(`~/static/images/modem-images/${folderName}/compressed_${
-              index - 1
-            }.jpg`)
+            require(`~/static/images/${folderName}/compressed_${index - 1}.jpg`)
           "
           alt=""
           class="w-full sm:w-auto sm:h-full object-cover mx-auto"
@@ -22,14 +20,18 @@
         @click="$refs.main.goTo(index - 1)"
         v-for="index in imageCount"
         :key="index"
-        class="cursor-pointer border thumbnail p-2 hover:border-blue-600"
+        class="
+          cursor-pointer
+          border
+          thumbnail
+          p-2
+          hover:border-blue-600
+          mx-1
+          rounded-sm
+        "
       >
         <img
-          :src="
-            require(`~/static/images/modem-images/${folderName}/150_${
-              index - 1
-            }.jpg`)
-          "
+          :src="require(`~/static/images/${folderName}/150_${index - 1}.jpg`)"
           alt=""
           class="h-12 mx-auto object-contain"
         />
@@ -47,10 +49,12 @@
             text-gray-700
             left-[-7.5%]
           "
+          :class="{ hidden: this.imageCount <= 5 }"
         />
       </template>
       <template slot="nextButton">
         <IconChevronRight
+          :class="{ hidden: this.imageCount <= 5 }"
           class="
             w-10
             h-full
@@ -60,7 +64,7 @@
             opacity-25
             hover:opacity-75
             text-gray-700
-            right-[-7.5%]
+            right-[-10.5%]
           "
         />
       </template>
@@ -69,14 +73,7 @@
 </template>
 <script>
 export default {
-  props: ["urlPaths", "brand", "model", "imageCount"],
-  computed: {
-    folderName: function () {
-      let brand = this.brand.toLowerCase();
-      let model = this.model.toLowerCase();
-      return `${brand}_${model}`;
-    },
-  },
+  props: ["folderName", "imageCount"],
   data() {
     return {
       imageSettings: {
@@ -90,7 +87,7 @@ export default {
         slidesToShow: 5,
         dots: false,
         infinite: false,
-        navButtons: false,
+        navButtons: true,
       },
     };
   },
@@ -103,4 +100,7 @@ export default {
 .thumbnail.agile__slide--active {
   @apply opacity-100;
 } */
+.thumbnail.agile__slide {
+  width: calc(100% / 6 - 1px) !important;
+}
 </style>

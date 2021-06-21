@@ -21,10 +21,10 @@
 </template>
 <script>
 export default {
-  props: ["modemsToShow"],
+  props: ["productsToShow"],
   computed: {
     dataToShow: function () {
-      let dataToShow = this.modemsToShow.map((value) => {
+      let dataToShow = this.productsToShow.map((value) => {
         let brand = value[0][1];
         let model = value[1][1];
         return {

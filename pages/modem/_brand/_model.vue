@@ -4,12 +4,10 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 mb-8">
       <ProductGallery
         class="order-2 sm:order-1"
-        :urlPaths="urlPaths"
-        :brand="brandSlug"
-        :model="modelSlug"
+        :folderName="folderName"
         :imageCount="imageCount"
       />
-      <ProductInfo class="order-1 sm:order-2" :brand="brand" :model="model" />
+      <ProductInfo class="order-1 sm:order-2" :title="title" />
     </div>
     <ProductSpecTable class="" :tableData="tableData" />
   </div>
@@ -59,6 +57,12 @@ export default {
     },
     tableData: function () {
       return this.jsonData.slice(1);
+    },
+    folderName: function () {
+      return `modem-images/${this.brandSlug}_${this.modelSlug}`;
+    },
+    title: function () {
+      return `${this.brand} ${this.model}`;
     },
   },
 };

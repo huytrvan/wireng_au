@@ -1,0 +1,43 @@
+<template>
+  <div class="">
+    <div class="mb-12 text-gray-700">
+      <h2 id="antennas" class="text-xl">Antennas by WirEng®</h2>
+      <p class="">A collection of our latest 5G/4G/3G antennas</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+      <NuxtLink
+        :to="`/${antenna.clean.toLowerCase()}-for-hotspot-modems`"
+        v-for="antenna in antennas"
+        :key="antenna.clean.id"
+        class="hover:text-blue-600 inline-block"
+      >
+        <img
+          :src="
+            require(`@/static/images/antenna-images/${antenna.clean.toLowerCase()}/300_0.jpg`)
+          "
+          alt=""
+          class="object-contain min-w-[5rem] h-28 md:h-44 mx-auto"
+        />
+        <h3 class="text-center text-lg">
+          {{ `${antenna.full} by WirEng®` }}
+        </h3>
+      </NuxtLink>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  computed: {
+    antennas: function () {
+      let antennas = require("@/static/json/antenna/_antennas.json");
+      antennas = antennas.map((value) => {
+        return {
+          full: value[1],
+          clean: value[1].replace(/[™]/g, ""),
+        };
+      });
+      return antennas;
+    },
+  },
+};
+</script>

@@ -1,9 +1,6 @@
 <template>
   <nav class="navlink">
-    <NuxtLink
-      to="/antenna?page=1"
-      class="navlink__link"
-      :class="routeName === 'antenna' ? ' border-blue-700' : 'border-white '"
+    <NuxtLink to="#antennas" class="navlink__link border-white"
       >Antennas & Products</NuxtLink
     >
     <NuxtLink

@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <h2 class="font-bold mb-2">Specification</h2>
+    <h2 class="font-bold mb-2 pl-2 sm:pl-3">Specification</h2>
     <div
       class="overflow-x-scroll sm:overflow-x-visible relative"
       :class="{ 'h-48 overflow-y-hidden': !isTableExpanded }"

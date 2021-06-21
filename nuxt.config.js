@@ -59,5 +59,8 @@ export default {
         },
         preload: true,
         download: true,
-    }
+    },
+    server: {
+        host: '0.0.0.0',
+    },
 }

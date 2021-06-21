@@ -11,7 +11,7 @@
         >.
       </p>
     </div>
-    <ProductItem :modemsToShow="modemsToShow" class="mb-12" />
+    <ProductItem :productsToShow="modemsToShow" class="mb-12" />
     <div class="text-center sm:mb-12">
       <NuxtLink
         :to="`?page=${prevPage}`"
