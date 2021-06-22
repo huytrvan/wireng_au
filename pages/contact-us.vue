@@ -146,11 +146,13 @@ export default {
         Body: this.getBodyMessage(),
       }).then((message) => {
         if (message === "OK") {
-          alert("Your message is sent.\nWe will reply to you within 48 hours");
+          alert(
+            "Thank for sending us your message.\nOur Customer Support team will reply to you within 48 hours."
+          );
           this.deleteData();
         } else {
           alert(
-            `Something went wrong on our side.\nPlease retry sending the message.\nSorry for the inconvenience.`
+            `Something went wrong while sending your email.\nPlease check your internet connection and retry sending.\nSorry for the inconvenience.`
           );
         }
       });
