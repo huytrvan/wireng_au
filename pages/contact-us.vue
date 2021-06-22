@@ -144,7 +144,16 @@ export default {
         From: "huy.at.welc.group@gmail.com",
         Subject: this.getHeaderMessage(),
         Body: this.getBodyMessage(),
-      }).then((message) => alert(message));
+      }).then((message) => {
+        if (message === "OK") {
+          alert("Your message is sent.\nWe will reply to you within 48 hours");
+          this.deleteData();
+        } else {
+          alert(
+            `Something went wrong on our side.\nPlease retry sending the message.\nSorry for the inconvenience.`
+          );
+        }
+      });
     },
   },
   head: {
