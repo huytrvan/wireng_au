@@ -7,7 +7,7 @@
         will respond to you within 48 hours.
       </p>
     </div>
-    <form @submit.prevent="test()" class="">
+    <form @submit.prevent="send()" class="">
       <div class="grid grid-cols-2 gap-6 mb-8">
         <div class="col-span-2">
           <label for="topic" class="contact-us__label">Topic *</label>
@@ -19,7 +19,7 @@
             class="contact-us__input p-0"
             required
           >
-            <option disable selected value="">---</option>
+            <option disabled selected value="">---</option>
             <option value="Inquiry about Antennas">
               Inquiry about Antennas
             </option>
@@ -104,7 +104,7 @@
   </div>
 </template>
 <script>
-// import Email from "~/assets/js/smtp.js";
+import Email from "~/assets/js/smtp.js";
 import { mapActions } from "vuex";
 export default {
   mounted() {},
@@ -114,38 +114,49 @@ export default {
     },
   },
   methods: {
-    // test: function () {
-    //   Email.send({
-    //     SecureToken: "e212e9b1-25bf-48b9-b3d9-680648126dff",
-    //     To: "huy.at.welc.group@gmail.com",
-    //     From: "huy.at.welc.group@gmail.com",
-    //     Subject: "Testing Testing",
-    //     Body: "I have something amazing to send you. Do you want to see?",
-    //   }).then((message) => alert(message));
-    // },
-    ...mapActions("email", ["updateData"]),
-    // phoneInBody: function () {
-    //   if (this.phone) {
-    //     return this.phone;
-    //   }
-    //   return "N/A";
-    // },
-    // getHeaderMessage: function () {
-    //   let string = `
-    //         ${this.topic} from Mr/Mrs ${this.firstName} ${this.lastName}`;
-    //   string = string.replace(/[\s]/g, "");
-    //   return string;
-    // },
-    // getBodyMessage: function () {
-    //   let string = `
-    //         First Name: ${this.firstName}\n
-    //         Last Name: ${this.lastName}\n
-    //         Phone: ${this.phoneInBody()}\n
-    //         Message:\n
-    //         ${this.message}`;
-    //   string = string.replace(/[\s]/g, "");
-    //   return string;
-    // },
+    ...mapActions("email", ["updateData", "deleteData"]),
+    phoneInBody: function () {
+      if (this.phone) {
+        return this.phone;
+      }
+      return "N/A";
+    },
+    getHeaderMessage: function () {
+      let string = `
+            ${this.data.topic} from Mr/Mrs ${this.data.firstName} ${this.data.lastName}`;
+      string = string.replace(/[\s]/g, " ");
+      return string;
+    },
+    getBodyMessage: function () {
+      let string = `
+            First Name:${this.data.firstName},
+            Last Name:${this.data.lastName},
+            Phone:${this.phoneInBody()},
+            Message:
+            ${this.data.message}`;
+      string = string.replace(/[\s]/g, " ");
+      return string;
+    },
+    send: function () {
+      Email.send({
+        SecureToken: "e212e9b1-25bf-48b9-b3d9-680648126dff",
+        To: "wirengin@gmail.com",
+        From: "huy.at.welc.group@gmail.com",
+        Subject: this.getHeaderMessage(),
+        Body: this.getBodyMessage(),
+      }).then((message) => alert(message));
+    },
+  },
+  head: {
+    title: "Contact WirEng",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Feel free to email us your question/ feedback using the form below. We will respond to you within 48 hours.",
+      },
+    ],
   },
 };
 </script>
