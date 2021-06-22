@@ -7,7 +7,7 @@
         :imageCount="antennaData[0][1]"
         class="order-2 md:order-1"
       />
-      <div class="order-1 md:order-2 mb-4 sm:mb-0 sm:pl-12">
+      <div class="order-1 md:order-2 mb-20 sm:mb-0 sm:pl-12">
         <ProductInfo class="mb-4" :title="data[0][0]" />
         <ProductDistributor
           :distributors="['BestCellDist']"

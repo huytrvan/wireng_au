@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <div class="mb-12 text-gray-700">
-      <h2 id="antennas" class="text-xl">Antennas by WirEng®</h2>
-      <p class="">A collection of our newest 5G/4G/3G antennas</p>
+      <h2 id="products" class="text-xl">Products by WirEng®</h2>
+      <p class="">A collection of our newest 5G/4G/3G antenna products</p>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-12">
       <NuxtLink

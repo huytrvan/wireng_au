@@ -1,13 +1,13 @@
 <template>
   <nav class="navlink">
-    <NuxtLink to="/#antennas" class="navlink__link border-white"
-      >Antennas & Products</NuxtLink
+    <NuxtLink to="/#products" class="navlink__link border-white"
+      >Our Products</NuxtLink
     >
     <NuxtLink
       to="/modem?page=1"
       class="navlink__link"
       :class="routeName === 'modem' ? ' border-blue-700' : 'border-white '"
-      >Modems Routers</NuxtLink
+      >Hotspots & Modems</NuxtLink
     >
     <NuxtLink to="/contact-us" class="contact-btn"> Contact Us </NuxtLink>
   </nav>

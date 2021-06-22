@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <IndexCarousel class="mb-12" />
-    <IndexAntenna class="mb-16" />
+    <IndexProduct class="mb-16" />
     <IndexModem />
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Extend your Mobile Hotspots signal today with the best high-gain, wide-band antennas from WirEng®",
+          "Boost your 5G/4G/3G Hotspots signal today with the best high-gain, wide-band antennas from WirEng®",
       },
     ],
   },
