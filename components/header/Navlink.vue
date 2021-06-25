@@ -1,17 +1,13 @@
 <template>
   <nav class="navlink">
-    <NuxtLink
-      class="navlink__link"
-      :class="routeName === 'index' ? ' border-blue-700' : 'border-white '"
-      to="/"
+    <NuxtLink to="/#products" class="navlink__link border-white"
+      >Our Products</NuxtLink
     >
-      Home
-    </NuxtLink>
     <NuxtLink
       to="/modem?page=1"
       class="navlink__link"
       :class="routeName === 'modem' ? ' border-blue-700' : 'border-white '"
-      >Modem Routers</NuxtLink
+      >Hotspots & Modems</NuxtLink
     >
     <NuxtLink to="/contact-us" class="contact-btn"> Contact Us </NuxtLink>
   </nav>
@@ -20,7 +16,8 @@
 export default {
   computed: {
     routeName: function () {
-      return this.$route.name.trim();
+      let routeName = this.$route.name || "";
+      return routeName.trim();
     },
   },
 };
@@ -39,7 +36,8 @@ export default {
   @apply text-blue-50;
   @apply p-2;
   @apply block;
-  @apply shadow hover:shadow-lg;
+  @apply rounded-sm;
+  @apply shadow-sm hover:shadow-lg;
 }
 .navlink__link {
   @apply mb-1 md:my-auto;

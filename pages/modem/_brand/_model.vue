@@ -1,17 +1,15 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-8" :urlPaths="urlPaths" />
+    <BreadCrumb class="mb-8" :urlPaths="urlPaths" />
     <div class="grid grid-cols-1 sm:grid-cols-2 mb-8">
-      <ModemGallery
+      <ProductGallery
         class="order-2 sm:order-1"
-        :urlPaths="urlPaths"
-        :brand="brandSlug"
-        :model="modelSlug"
+        :folderName="folderName"
         :imageCount="imageCount"
       />
-      <ModemInfo class="order-1 sm:order-2" :brand="brand" :model="model" />
+      <ProductInfo class="order-1 sm:order-2" :title="title" />
     </div>
-    <ModemSpecTable class="" :tableData="tableData" />
+    <ProductSpecTable class="" :tableData="tableData" />
   </div>
 </template>
 <script>
@@ -32,7 +30,7 @@ export default {
       let brand = this.urlPaths[1];
       let model = this.urlPaths[2];
       let fileName = `${brand}_${model}`;
-      let jsonData = require(`@/static/json/${fileName}.json`);
+      let jsonData = require(`@/static/json/modem/${fileName}.json`);
       return jsonData;
     },
     brand: function () {
@@ -60,6 +58,24 @@ export default {
     tableData: function () {
       return this.jsonData.slice(1);
     },
+    folderName: function () {
+      return `modem-images/${this.brandSlug}_${this.modelSlug}`;
+    },
+    title: function () {
+      return `${this.brand} ${this.model}`;
+    },
+  },
+  head() {
+    return {
+      title: `${this.title} - Boost Your 5G/4G/3G Network Signal With WirEng® Antenna Products`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: `Boost your ${this.title} with the newest 5G/4G/3G WirEng® antenna products`,
+        },
+      ],
+    };
   },
 };
 </script>

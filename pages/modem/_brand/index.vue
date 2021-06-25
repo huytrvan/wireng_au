@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <ModemBreadCrumb class="mb-4" :urlPaths="urlPaths" />
+    <BreadCrumb class="mb-4" :urlPaths="urlPaths" />
     <h1 class="mb-4 text-xl text-gray-700">{{ brandCapitalized }} Modem</h1>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
       <NuxtLink
@@ -41,7 +41,7 @@ export default {
       return this.urlPaths[1];
     },
     jsonData: function () {
-      let jsonData = require(`@/static/json/${this.brand}.json`);
+      let jsonData = require(`@/static/json/modem/${this.brand}.json`);
       return jsonData;
     },
     models: function () {

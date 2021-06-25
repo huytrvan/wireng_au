@@ -1,9 +1,9 @@
 <template>
   <div class="">
-    <agile v-bind="agileSettings" class="shadow-md border">
-      <div v-for="imageName in imageNames" :key="imageName.id" class="slide">
+    <agile v-bind="agileSettings" class="shadow-md border rounded-sm">
+      <div v-for="index in 4" :key="index" class="slide">
         <img
-          :src="require(`@/static/images/carousels/${imageName}`)"
+          :src="require(`@/static/images/carousels/compressed_${index}.jpg`)"
           alt=""
           class="w-full"
         />
@@ -47,14 +47,14 @@
 export default {
   data() {
     return {
-      imageNames: [
-        "Introducing-The-WideAnt4-5G-by-WirEng-1024x373.jpg",
-        "Introducing-WirEng-1-1024x373.jpg",
-        "Introducing-WirEng-2-1024x373.jpg",
-        "Introducing-WirEng-3-1024x373.jpg",
-        "Introducing-WirEng-4-1024x373.jpg",
-        "Introducing-WirEng-5-1024x373.jpg",
-      ],
+      //   imageNames: [
+      //     "Introducing-The-WideAnt4-5G-by-WirEng-1024x373.jpg",
+      //     "Introducing-WirEng-1-1024x373.jpg",
+      //     "Introducing-WirEng-2-1024x373.jpg",
+      //     "Introducing-WirEng-3-1024x373.jpg",
+      //     "Introducing-WirEng-4-1024x373.jpg",
+      //     "Introducing-WirEng-5-1024x373.jpg",
+      //   ],
       agileSettings: {
         dots: true,
         fade: true,
@@ -70,7 +70,7 @@ export default {
 .agile__dots {
   @apply absolute;
   @apply bottom-[3%];
-  @apply left-[36.5%];
+  @apply left-[42.5%];
 }
 .agile__dot {
   @apply mx-3;
@@ -81,6 +81,7 @@ export default {
   @apply opacity-25;
   @apply h-3;
   @apply w-6;
+  @apply rounded-sm;
   @apply hidden;
   @apply lg:block;
 }

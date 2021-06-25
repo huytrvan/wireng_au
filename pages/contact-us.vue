@@ -7,8 +7,8 @@
         will respond to you within 48 hours.
       </p>
     </div>
-    <form @submit.prevent="test()" class="">
-      <div class="grid grid-cols-2 gap-4 mb-8">
+    <form v-if="!isSubmitted" @submit.prevent="submitEmail()" class="">
+      <div class="grid grid-cols-2 gap-6 mb-12">
         <div class="col-span-2">
           <label for="topic" class="contact-us__label">Topic *</label>
           <select
@@ -19,6 +19,7 @@
             class="contact-us__input p-0"
             required
           >
+            <option disabled selected value="">---</option>
             <option value="Inquiry about Antennas">
               Inquiry about Antennas
             </option>
@@ -85,6 +86,10 @@
           ></textarea>
         </div>
       </div>
+      <recaptcha
+        @success="setIsCaptchaChecked(true)"
+        class="inline-block mb-4"
+      />
       <button
         class="
           w-full
@@ -97,54 +102,98 @@
         "
         type="submit"
       >
-        Send
+        Submit
       </button>
     </form>
+    <div v-else class="py-32 text-center">
+      <p>Thank you for sending us your message.</p>
+      <p>Our Customer Support team will reply to you within 48 hours.</p>
+    </div>
   </div>
 </template>
 <script>
-// import Email from "~/assets/js/smtp.js";
+import Email from "~/assets/js/smtp.js";
 import { mapActions } from "vuex";
 export default {
-  mounted() {},
+  data() {
+    return {
+      isSubmitted: false,
+      isCaptchaChecked: false,
+    };
+  },
   computed: {
     data: function () {
       return this.$store.state.email.storageData;
     },
   },
   methods: {
-    // test: function () {
-    //   Email.send({
-    //     SecureToken: "e212e9b1-25bf-48b9-b3d9-680648126dff",
-    //     To: "huy.at.welc.group@gmail.com",
-    //     From: "huy.at.welc.group@gmail.com",
-    //     Subject: "Testing Testing",
-    //     Body: "I have something amazing to send you. Do you want to see?",
-    //   }).then((message) => alert(message));
-    // },
-    ...mapActions("email", ["updateData"]),
-    // phoneInBody: function () {
-    //   if (this.phone) {
-    //     return this.phone;
-    //   }
-    //   return "N/A";
-    // },
-    // getHeaderMessage: function () {
-    //   let string = `
-    //         ${this.topic} from Mr/Mrs ${this.firstName} ${this.lastName}`;
-    //   string = string.replace(/[\s]/g, "");
-    //   return string;
-    // },
-    // getBodyMessage: function () {
-    //   let string = `
-    //         First Name: ${this.firstName}\n
-    //         Last Name: ${this.lastName}\n
-    //         Phone: ${this.phoneInBody()}\n
-    //         Message:\n
-    //         ${this.message}`;
-    //   string = string.replace(/[\s]/g, "");
-    //   return string;
-    // },
+    ...mapActions("email", ["updateData", "deleteData"]),
+    phoneInBody: function () {
+      if (this.phone) {
+        return this.phone;
+      }
+      return "N/A";
+    },
+    getHeaderMessage: function () {
+      let string = `
+            ${this.data.topic} from Mr/Mrs ${this.data.firstName} ${this.data.lastName}`;
+      string = string.replace(/[\s]/g, " ");
+      return string;
+    },
+    getBodyMessage: function () {
+      let string = `
+            First Name:${this.data.firstName},
+            Last Name:${this.data.lastName},
+            Phone:${this.phoneInBody()},
+            Message:
+            ${this.data.message}`;
+      string = string.replace(/[\s]/g, " ");
+      return string;
+    },
+    setIsCaptchaChecked: function (boolean) {
+      this.isCaptchaChecked = boolean;
+    },
+    submitEmail() {
+      if (this.isCaptchaChecked) {
+        // Response verified
+        Email.send({
+          SecureToken: "e212e9b1-25bf-48b9-b3d9-680648126dff",
+          To: "directsales@wireng.com",
+          From: "huy.at.welc.group@gmail.com",
+          Subject: this.getHeaderMessage(),
+          Body: this.getBodyMessage(),
+        }).then((message) => {
+          if (message === "OK") {
+            this.isSubmitted = true;
+            this.deleteData();
+          } else {
+            alert(
+              `Something went wrong while sending your email.\nPlease check your internet connection and retry sending.\nSorry for the inconvenience.`
+            );
+          }
+        });
+      } else {
+        alert("Please fill captcha checkbox above before submitting");
+      }
+    },
+  },
+  head: {
+    title: "Contact WirEng",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Feel free to email us your question/ feedback using the form below. We will respond to you within 48 hours.",
+      },
+    ],
+    // script: [
+    //   {
+    //     src: "https://www.google.com/recaptcha/api.js",
+    //     async: true,
+    //     defer: true,
+    //   },
+    // ],
   },
 };
 </script>
@@ -159,6 +208,7 @@ export default {
   @apply focus:outline-white;
   @apply rounded-sm;
   @apply focus:shadow-sm;
+  @apply appearance-none;
 }
 .contact-us__label {
   @apply block;

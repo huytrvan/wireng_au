@@ -1,0 +1,186 @@
+[
+    [
+        "Image Count",
+        5
+    ],
+    [
+        "Brand",
+        "Comset"
+    ],
+    [
+        "Model",
+        "CM950W"
+    ],
+    [
+        "Network Support",
+        "3G, 4G, 5G"
+    ],
+    [
+        "Main",
+        ""
+    ],
+    [
+        "WAN",
+        "5G/4G/3G Cellular Modem WiFi as WAN Failover and Load Balancing Advanced modem failure check IP Pass-through WAN ports support Cell/Static IP/DHCP/PPPoE (on demand, keep alive, schedule, manual, standby)"
+    ],
+    [
+        "LAN",
+        "DHCP Server, Client, Relay DNS and DNS Proxy DDNS UPnP DMZ Multicast/Multicast Proxy QoS (DSCP and Priority Queuing) MAC Address Filtering VLAN 802.1Q"
+    ],
+    [
+        "WiFi",
+        "Dual-Band 2x2 MIMO Technology, up to 867Mbps 802.11 a/b/g/n/ac 2.4 GHz and 5 GHz WPA2 Enterprise (WiFi) Hotspot/Captive Portal SSID-based Priority"
+    ],
+    [
+        "VPN AND ROUTING",
+        "IPsec Tunnel, PPTP, L2TP, GRE Tunnel, OpenVPN, OSPF/BGP/RIP, Virtual Server/Port Forwarding, IPv6, VRRP."
+    ],
+    [
+        "MANAGEMENT",
+        "Network Management Software (NMS) Web GUI, API, CLI/SSH/Telnet, SFTP Data Usage Alerts (router and per client) Advanced Troubleshooting Device Alerts SNMP SMS control TR-069"
+    ],
+    [
+        "SECURITY",
+        "RADIUS and TACACS+ support 802.1x authentication for Ethernet Certificate support ALGs MAC Address Filtering Advanced Security Mode (local user management only) Per-Client Web Filtering IP Filtering Content Filtering (basic) Website Filtering Zone-Based Object Firewall with host address (IP or FQDN), port, and mac address NAT, SPI, port blocking, service filtering (FTP, SFTP, SMTP, HTTP, RPL, SNMP, DNS, ICMP, NNTP, POP3, SSH), protocol filtering, WAN ping (allow/ignore)"
+    ],
+    [
+        "OPTIMIZED IP COMMUNICATIONS",
+        "Automated WAN Failover WAN Affinity and QoS allow prioritization of VoIP services Advanced VPN connectivity options tHQ SIP ALG and NAT tallow VoIP and UC communications ttraverse firewall MAC Address Filtering 802.1p/q for LAN QoS segmentation and treatment of VoIP on LAN Private Network support (wired and 4G/5G WAN)"
+    ],
+    [
+        "Firmware update",
+        "supports firmware update locally, remotely (LAN, WiFi and OTA WAN)"
+    ],
+    [
+        "DI/DO (Digital Input and Output)",
+        "4 x Digital Input ports for alarm notification via email or SMS. These can also be used as Digital Output ports to control electrical devices via SMS or GUI (a DIO board is required)"
+    ],
+    [
+        "Other",
+        "Cellular and WiFi MIMO Syslog (local and remote) DDNS DNS proxy Optimized EMC design Real-time clock (NTP, update with defined hours) WAN/LAN/Memory statistics"
+    ],
+    [
+        "Features",
+        ""
+    ],
+    [
+        "Redundancy and Load Balancing",
+        "Failover between NBN/ADSL and 5G Modem Auto-dial feature, keep alive link LCP, ICMP check Built-in watch dog Three-way redundancy: Cellular (3G/4G/5G), RJ45 WAN (xDSL, DHCP, Fixed IP), WiFi client Load balancing"
+    ],
+    [
+        "Intelligent Routing",
+        "UPnP, DMZ, virtual server/port forwarding, routing rules, NAT-less routing, wired or wireless WAN-to-LAN IP passthrough, route management, per-interface routing, content filtering, IP filtering, website filtering, per-client Web filtering, local DHCP server, DHCP client, DHCP relay, DNS, DNS proxy, Split DNS; ALGs: PPTP, SIP, TFTP, FTP, IRC; MAC address filtering, Dynamic DNS, LAN/WAN affinity, STP, enterprise routing protocols: BGP/OSPF/RIP, multicast proxy"
+    ],
+    [
+        "Management",
+        "web-based GUI (local management), optional RADIUS or TACACS+ username/password; remote WAN web-based management w/ access control (HTTP, HTTPS); SNMP v1, v2c, & v3; CLI over SSH, SSH tserial, SSH ttelnet, SFTP; API; one-button firmware upgrade; modem configuration, update, and management; modem data usage w/ alerts, per-client data usage; custom AT scripting tmodems; SMS; TR-069"
+    ],
+    [
+        "VPN",
+        "IPsec – Tunnel, NAT-T, and transport modes; Hash (MD5, SHA128, SHA256, SHA384, SHA512), Cipher (AES, 3DES, DES); GRE tunneling; PPTP support; L2TP, L2TP over IPSec support; VPN pass-through; OpenVPN; Certificate support; multiple networks supported in a single tunnel, site-to-site dynamic VPN with NHRP; VTI Tunnel support;"
+    ],
+    [
+        "SMS, SMS Control and Alarm",
+        "Receive and Send SMS; WAN Cell APN configuration via SMS; SMS Control and Alarm. SMS or Call to control router tbe online, offline, reboot, signal and status monitor (check out the Comset SMS App) SMS text send/receive."
+    ],
+    [
+        "Specifications",
+        ""
+    ],
+    [
+        "Main",
+        ""
+    ],
+    [
+        "Hardware",
+        "CPU: 880Mhz dual core; RAM: 1Gb DDR3, option for up to 4GB DDR3; Flash: 128Mb, option for up to 8GBit"
+    ],
+    [
+        "WAN",
+        "Integrated 5G modem (with 4G and 3G failover); 10/100/1000Mbps Gigabit Ethernet port – NBN/ADSL; WiFi as WAN; MIMO “AC” 2.4 GHz and 5 GHz; 802.11 a/b/g/n/ac"
+    ],
+    [
+        "LAN/WiFi",
+        "Dual-band WiFi; 802.11 a/b/g/n/ac; TwGigabit and twFast Ethernet LAN ports."
+    ],
+    [
+        "Ports",
+        "Power (Passive POE, 2 Pins Terminal Block for wire connection) 5 x Ethernet LAN/WAN 4 x cellular (or 3 x cellular and 1 x GPS) antenna connectors SMA 2 x WiFi antenna connectors SMA 1 x Serial connector RS232 (3 Pins Terminal Block) 4 x Digital I/O ports (Terminal Block) USB3.0 port Console Port (Terminal Block)"
+    ],
+    [
+        "Power",
+        "DC input steady state voltage range: 5-40 VDC (requires inline fuse for vehicle installations); For 9–24 VDC installations, use a 3 A fuse; For > 24 VDC installations, use a 2.5 A fuse; Reverse polarity and transient voltage protection per ISO 7637-2 Ignition sensing (automatic ON and time-delay OFF); Power consumption: Idle: typical=100mA@12VDC; Maximum=500mA@12VDC; Tx/Rx: typical=300mA@12VDC; Maximum=800mA@12VDC; 12VDC 1.5A adapter included"
+    ],
+    [
+        "LEDs",
+        "SYS, ERR, VPN, WiFi, USB, WAN, LAN x 4, SIM1, SIM2, SIGNAL1, SIGNAL2, SIGNAL3"
+    ],
+    [
+        "UIM/SIM Card Slot",
+        "Supports 1.8V/3V UIM/SIM cards, twsim card slots"
+    ],
+    [
+        "Other",
+        "Reset button, console port"
+    ],
+    [
+        "Size",
+        "132mm x 112mm x 45mm"
+    ],
+    [
+        "Weight",
+        "410g (not including the antennas) 550g (including the antennas) 750g (including all accessories)"
+    ],
+    [
+        "Temperature",
+        "−35 °C t75 °C operating; −40 °C t85 °C storage"
+    ],
+    [
+        "Humidity (non-condensing)",
+        "5% t95% operating; 5% t95% storage"
+    ],
+    [
+        "Case",
+        "Alloy; Black color"
+    ],
+    [
+        "Cellular",
+        ""
+    ],
+    [
+        "Compatible Mobile Networks",
+        "5G NR 4G LTE (FDD/TDD) 3G UMTS WCDMA (HSUPA/HSDPA/HSPA/HSPA+/DC-HSPA+)"
+    ],
+    [
+        "Cellular Frequency",
+        "5G NR n1/n2/n3/n5/n7/n8/n12/n20/n28/n38/n40/n41/n48/n66/ n71/n77/n78/n79 4G LTE FDD B1/B2/B3/B4/B5/B7/B8/B9/B12/B13/B14/B17/B18/B19/ B20/B25/B26/B28/B29/B30/B32/B66/B71 4G LTE TDD B34/B38/39/B40/B41/B42/B48 4x4 MIMO DL 3G WCDMA B1/B2/B3/B4/B5/B6/B8/B19"
+    ],
+    [
+        "Bandwidth",
+        "5G SA (Stand Alone) Downlink 2.1Gbps Uplink 900Mbps 5G NSA (Non-Stand Alone) Downlink 2.5Gbps Uplink 650Mbps 4G LTE Downlink 1.0Gbps Uplink 200Mbps WCDMA Downlink 42Mbps Uplink 5.76Mbps"
+    ],
+    [
+        "WiFi (WLAN)",
+        ""
+    ],
+    [
+        "Wi-Fi",
+        "802.11a/b/g/n/ac; Can be used as AP or Client. Frequency Range: 2.412 ~ 2.472GHz 5.150 ~ 5.825 GHz"
+    ],
+    [
+        "Other",
+        ""
+    ],
+    [
+        "Warranty",
+        "1 Year Warranty"
+    ],
+    [
+        "Package Contents",
+        "CM950W 5G Router Ethernet and Serial Cables Power Adapter 4 x Cellular Antennas, 2 x WiFi Antennas"
+    ],
+    [
+        "Regulatory Compliance",
+        "RCM*, CE, RoHS *TBA"
+    ]
+]

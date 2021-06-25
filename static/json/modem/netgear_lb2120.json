@@ -1,0 +1,70 @@
+[
+    [
+        "Image Count",
+        4
+    ],
+    [
+        "Brand",
+        "NETGEAR"
+    ],
+    [
+        "Model",
+        "LB2120"
+    ],
+    [
+        "Network Support",
+        "3G, 4G"
+    ],
+    [
+        "Key Features",
+        ""
+    ],
+    [
+        "Max download speed",
+        "150 Mbps"
+    ],
+    [
+        "Max upload speed",
+        "50 Mbps"
+    ],
+    [
+        "LTE Category",
+        "4"
+    ],
+    [
+        "LEDs",
+        "Power\nLTE Signal Quality (5 LED bar graph)\nLAN"
+    ],
+    [
+        "Power Adapter",
+        "12V DC, 1A"
+    ],
+    [
+        "Key Features",
+        "Built-in Gigabit WAN connection for flexible home and office connectivity\nFast 4G LTE backup speeds up t150 Mbps for downloads and 50 Mbps for uploads\nProvides 4G t3G fallback support\nSMS message alerts for firmware updates, data usage, and failover to LTE\nTR-069 for remote management\nTwTS-9 connectors available tconnect optional 4G/3G antennas for better signal reception\nDirect IP pass-through for secure enterprise VPN configuration\nManage settings via a browser-based web UI\nLEDs on device to check network status instantly\nPortable, light and compact design for you ttake anywhere"
+    ],
+    [
+        "System Requirements",
+        "Compatible 3G/4G LTE Mobile Service (3FF Micro o-SIM)\nMicrosoft Windows 10, 8, 8.1, 7, Vista, XP, Mac OS® (10.6.8. and newer) and other operating systems running a TCP/IP network (for accessing Web Management User Interface)\nCompatible browsers such as Microsoft® Internet Explorer® 5.0, Firefox® 2.0, Safari® 1.4, or Google Chrome™ 11.0 browsers or higher (for accessing Web Management User Interface)"
+    ],
+    [
+        "Physical",
+        ""
+    ],
+    [
+        "Dimensions",
+        "4.7 (W) x 3.9 (D) x 1.2 (H) in"
+    ],
+    [
+        "Weight",
+        "0.4 lb"
+    ],
+    [
+        "Antennas",
+        "Optional 4G/3G antennas"
+    ],
+    [
+        "Ports",
+        "1 Gigabit WAN Ethernet RJ-45"
+    ]
+]
