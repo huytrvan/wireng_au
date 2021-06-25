@@ -1,0 +1,54 @@
+[
+    [
+        "Image Count",
+        3
+    ],
+    [
+        "Brand",
+        "AVM"
+    ],
+    [
+        "Model",
+        "FRITZ!Box 7530"
+    ],
+    [
+        "Interfaces",
+        "For VDSL or ADSL connections\nCompatible with Annex-J lines\n4 x gigabit Ethernet (10/100/1000BASE-T)\nWireless access point compliant with IEEE 802.11ac, n, g, b, a\n1 x fast USB port for printers and storage media\nDECT base station for up to six handsets\n1 a/b port (either TAE/RJ11) for connecting analog telephones, answering machines and fax"
+    ],
+    [
+        "Internet",
+        "DSL router with firewall/NAT, DHCP server, Dyno DNS client, UPnP AV\nVDSL or ADSL connection\nSupports 300 Mbit/s VDSL connections, including 35b supervectoring\nSupports VDSL Long Reach\nUse of existing Internet connections via LAN\nRouter operation even with a cable modem, fiber optic connection or with a mobile communications dongle (LTE/UMTS/HSPA)\nSupports IPv6\nStateful Packet Inspection Firewall with port sharing\nSecure remote access over the Internet with VPN (IPSec)"
+    ],
+    [
+        "Wi-Fi",
+        "Wireless AC (up to 866 Mbit/s gross, 5 GHz) and N (up to 400 Mbit/s gross, 2.4 GHz)\nCompatible with wireless 802.11g, b and a\nWith Mesh WiFi you can combine several wireless access points intone intelligent system (FRITZ!OS 6.90 and later) Find out more at en.avm.de/mesh\nDual wireless: Simultaneous use of the 5-GHz and 2.4-GHz band\nSecure upon delivery with WPA2 encryption AVM Stick & Surf: automatic security for wireless surfing\nWireless LAN can be turned on and off via button and connected telephones\nWi-Fi Protected Setup (WPS)\nWireless guest access – secure surfing for friends and visitors\nWireless network range extended through repeater function\nWireless auto channel: Automated search for wireless LAN radio channel free of interference\nGreen AP mode for optimum performance at minimum power consumption"
+    ],
+    [
+        "Telephony",
+        "Telephone system for IP-based connections\nIntegrated DECT base station for up to six cordless telephones\nVoice transmission encrypted ex works\n1 a/b port (either TAE/RJ11) for connecting analog telephones, answering machines and fax machines \nupports HD telephony for natural sound\nDECT Eco: radio network switches off ergonomically\nFive integrated answering machines featuring voice-to-mail\nFax function including e-mail forwarding (fax-to-mail)\nManage telephone contacts locally or online (email providers)\nCall diversion, internal calls, three-party conferencing, call transfer\nDialing rules to tailor use of specific numbers\nCall blocks, alarm, baby monitor, VIP calls and Do not Disturb\nInternet telephony SIP-compliant in accordance with RFC 3261\nRegistration of IP telephones (LAN/WiFi), SIP-compliant\nFRITZ!App Fon for landline calls via your smartphone"
+    ],
+    [
+        "Home network convenience",
+        "Media server makes music, pictures and videos available to devices in the home network (DLNA, UPnP AV)\nMyFRITZ! lets you access your own FRITZ!Box safely, no matter where you are\nFRITZ!NAS: memory shared by all data in the home network\nPlatform for networked applications like IP TV, video on demand and media streaming, thanks to the powerful dual-core processor\nParental controls, push service, cloud contacts, online storage\nWireless guest access – secure surfing for friends and customers\nWake on LAN over the Internet\nSupports devices compliant with DLNA Smart Home features for measuring and switching integrated in the user interface\nShare data with friends - it's easy and safe"
+    ],
+    [
+        "FRITZ!OS",
+        "fritz.box: multi-language user interface, for intuitive operation via Web browser\nUser interface optimized for smartphones and tablets (responsive design) Free updates for new functions and security\n Advanced view for special configuration options, help function with full-text search\nHandy FRITZ!Apps for your smartphone: MyFRITZ!App for FRITZ! convenience on the go, the clever Wi-Fi helper FRITZ!App WLAN and FRITZ!App\nSmart Home for intuitive control of your FRITZ! Smart Home\nSmart Home features integrated in the user interface\nSmart Home support for DECT ULE/HAN FUN devices\nSmart Home devices can be switched manually and automatically both in the home network and from the Internet"
+    ],
+    [
+        "Package contents",
+        "FRITZ!Box 7530\nPower supply unit with 1.5-meter cable\n4-meter DSL-telephone connecting cable\n1.5 meter LAN cable\nQuick guide"
+    ],
+    [
+        "Device properties",
+        "Dimensions (W x H x D): 208 x 150 x 37 mm\nAverage power consumption: 6 W"
+    ],
+    [
+        "Warranty",
+        "5-year manufacturer’s warranty for end customers"
+    ],
+    [
+        "Article number",
+        "20002845"
+    ]
+]

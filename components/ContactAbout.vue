@@ -6,34 +6,26 @@
         <p class="">You can contact us by clicking any icon below:</p>
       </div>
       <div class="">
-        <NuxtLink to="/" class="contact-about__icon-link">
-          <IconWhatsapp class="contact-about__icon-icon" />
-          <p class="contact-about__icon-text">WHATSAPP</p>
-        </NuxtLink>
-        <NuxtLink to="/" class="contact-about__icon-link">
+        <NuxtLink to="/contact-us" class="contact-about__icon-link">
           <IconEmail class="contact-about__icon-icon" />
           <p class="contact-about__icon-text">EMAIL</p>
-        </NuxtLink>
-        <NuxtLink to="/" class="contact-about__icon-link">
-          <IconPhone class="contact-about__icon-icon" />
-          <p class="contact-about__icon-text">PHONE (USA)</p>
         </NuxtLink>
       </div>
     </div>
     <div class="max-w-[32rem]">
-      <h2 class="text-gray-700 text-xl">About Us</h2>
-      <p class="mt-2">
+      <h2 class="text-gray-700 text-xl mb-2">About Us</h2>
+      <p class="mb-2">
         WirEng is commited to make fast and stable cellular network accessible
         to everyone by providing industry-leading ultra-high gain and ultra-wide
         band antenna solutions.
       </p>
-      <p class="mt-2">
-        <NuxtLink to="/" class="text-blue-400 hover:underline"
+      <p class="">
+        <NuxtLink to="/" class="text-blue-500 hover:underline"
           >Wireng.com.au</NuxtLink
         >
         is the Australia & New Zealand subsidiary of
-        <a href="https://www.wireng.com" class="text-blue-400 hover:underline"
-          >WirEng</a
+        <a href="https://www.wireng.com" class="text-blue-500 hover:underline"
+          >WirEng®</a
         >
         USA.
       </p>
@@ -48,6 +40,7 @@
   @apply p-3;
   @apply bg-gray-400 hover:bg-blue-500;
   @apply shadow-sm;
+  @apply rounded-sm;
 }
 .contact-about__icon-link {
   @apply inline-block;
@@ -61,3 +54,11 @@
   @apply mt-1;
 }
 </style>
+// <NuxtLink to="/" class="contact-about__icon-link">
+//           <IconWhatsapp class="contact-about__icon-icon" />
+//           <p class="contact-about__icon-text">WHATSAPP</p>
+//         </NuxtLink>
+// <NuxtLink to="/" class="contact-about__icon-link">
+//           <IconPhone class="contact-about__icon-icon" />
+//           <p class="contact-about__icon-text">PHONE (USA)</p>
+//         </NuxtLink>

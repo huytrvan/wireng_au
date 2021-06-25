@@ -1,0 +1,54 @@
+[
+    [
+        "Image Count",
+        5
+    ],
+    [
+        "Brand",
+        "AVM"
+    ],
+    [
+        "Model",
+        "FRITZ!Box 7590"
+    ],
+    [
+        "Interfaces",
+        "For the VDSL or ADSL line\nAnalog or ISDN landline according t1TR112/U-R2\nCompatible with Annex-J lines\n4 x gigabit Ethernet (10/100/1000 Base-T)\n1 x gigabit WAN for connections on cable/DSL/fiber optic modems or to the network\nWireless access point compliant with IEEE 802.11ac, n, g, b, a\n2 x USB 3.0 port for printers and storage media\nDECT base station for up t6 handsets\nInternal S0 bus tuse ISDN phones or telephone systems on an IP-based connection\n2 a/b ports (either TAE/RJ11) for connecting analog telephones, answering machines and fax"
+    ],
+    [
+        "Internet",
+        "DSL router with firewall/NAT, DHCP server, Dyno DNS client, UPnP AV\n VDSL or ADSL line with optional analog or ISDN landline network compliant with 1TR112/U-R2\n Supports 300 Mbit/s VDSL connections, including supervectoring (35b)\n Supports VDSL Long Reach\n Use of existing Internet connections via LAN and Wi-Fi\nRouter operation even at a cable modem, fiber optic connection or with a mobile dongle\n (LTE/UMTS/HSPA)Supports IPv6 for Internet, home network and telephony\n Stateful Packet Inspection Firewall with port sharing for secure surfing\nSecure remote access over the Internet with VPN (IPSec)"
+    ],
+    [
+        "Wi-Fi",
+        "4 x 4 Wi-Fi 5 with Multi-User MIMO\nWi-Fi 5 up t1733 Mbit/s gross (5 GHz) and up to 800 Mbit/s gross (2.4 GHz)\nWith Mesh Wi-Fi you can combine several wireless access points intone intelligent system (FRITZ!OS 6.90 and later) Find out more at en.avm.de/mesh\nCompatible with Wireless 802.11g, b and a\nSecure upon delivery with WPA2 encryption\nAVM Stick & Surf: automatic security for cable-free surfing\nWi-Fi can be turned on and off via button and connected telephones\nWi-Fi Protected Setup (WPS)\nWi-Fi guest access – secure surfing for friends and visitors\nWi-Fi network range extended through repeater function\nWi-Fi auto channel: Automated search for Wi-Fi channel, free of interference\nGreen AP mode for optimum performance at minimum power consumption"
+    ],
+    [
+        "Telephony",
+        "Telephone systems with DECT base station for up t6 cordless telephones\nVoice transmission encrypted ex works\nISDN S₀ bus for connecting ISDN telephones/ISDN telephone systems\n2 a/b ports (either TAE/RJ11) for connecting analog telephones, answering machines and fax\nSupports HD telephony for natural sound\nDECT Eco: radio network switches off ergonomically\nFive integrated answering machines featuring voice-to-mail Manage telephone contacts locally or online (email providers) Fax function including e-mail forwarding (fax-to-mail) Call diversion, internal calls, three-party conferencing, call transfer\nCall blocks, alarm, baby monitor, VIP calls and Do not Disturb\nInternet telephony SIP-compliant in accordance with RFC 3261\nRegistration of IP telephones (LAN/Wi-Fi) SIP-compliant\nFRITZ!App Fon for landline calls via your smartphone"
+    ],
+    [
+        "Home network convenience",
+        "Media server makes music, pictures and videos available to devices in the home network (DLNA, UPnP AV)\nMyFRITZ! lets you access your own FRITZ!Box safely, no matter where you are\nFRITZ!NAS: memory shared by all data in the home network\nPlatform for networked applications like IP TV, video on demand and media streaming, thanks to the powerful dual-core processor\nParental controls, push service, cloud contacts, online storage\nWi-Fi guest access – secure surfing for friends and customers\nWake on LAN over the Internet Supports devices compliant with DLNA\nSmart Home features for measuring and switching integrated in the user interface\nLEDs can be dimmed manually or depending on the brightness in the room"
+    ],
+    [
+        "FRITZ!OS",
+        "fritz.box: multi-language user interface, for intuitive operation via Web browser\nUser interface optimized for smartphones and tablets (responsive design)\nFree updates for new functions and security\nAdvanced view for special configuration options, help function with full-text search\nHandy FRITZ!Apps for your smartphone: MyFRITZ!App for FRITZ! convenience on the go, the clever Wi-Fi helper FRITZ!App WLAN and FRITZ!App Smart Home for intuitive control of your FRITZ! Smart Home\nSmart Home features integrated in the user interface\nSmart Home support for DECT ULE/HAN FUN devices\nSmart Home devices can be switched manually and automatically both in the home network and from the Internet"
+    ],
+    [
+        "Package contents",
+        "FRITZ!Box 7590\nPower supply unit with 1.5-meter cable\n4-meter DSL-telephone connecting cable\n1.5 meter LAN cable\nQuick guide"
+    ],
+    [
+        "Device properties",
+        "Dimensions (W x H x D): 250 x 48 x 185 mm\nAverage power consumption: 9 - 10 W"
+    ],
+    [
+        "Warranty",
+        "5-year manufacturer’s warranty for end customers"
+    ],
+    [
+        "Article number",
+        "20002804"
+    ]
+]

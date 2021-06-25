@@ -4,7 +4,8 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'WirEng Australia New Zealand',
+        title: 'Boost Your 5G/4G/3G Network Signal With WirEng® Antenna Products',
+        titleTemplate: '%s - WirEng® Australia New Zealand',
         htmlAttrs: {
             lang: 'en'
         },
@@ -43,6 +44,8 @@ export default {
     modules: [
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
+        // https://github.com/nuxt-community/recaptcha-module
+        '@nuxtjs/recaptcha',
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -58,5 +61,18 @@ export default {
             'Roboto Condensed': true
         },
         preload: true,
+        download: true,
+    },
+    server: {
+        host: '0.0.0.0',
+    },
+    recaptcha: {
+        siteKey: '6Lc_ZU8bAAAAAAWy10acDLVMX8kTs9NYlgn8Ql34',
+        size: 'normal',
+        version: 2,
+        hideBadge: false,
     }
+    // router: {
+    //     base: '/wordpress/'
+    // }
 }
