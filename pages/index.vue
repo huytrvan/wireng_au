@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <IndexCarousel class="mb-12" />
-    <IndexProduct class="mb-16" />
+    <IndexProduct class="mb-12" />
     <IndexModem />
   </div>
 </template>

@@ -44,6 +44,8 @@ export default {
     modules: [
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
+        // https://github.com/nuxt-community/recaptcha-module
+        '@nuxtjs/recaptcha',
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -64,4 +66,13 @@ export default {
     server: {
         host: '0.0.0.0',
     },
+    recaptcha: {
+        siteKey: '6Lc_ZU8bAAAAAAWy10acDLVMX8kTs9NYlgn8Ql34',
+        size: 'normal',
+        version: 2,
+        hideBadge: false,
+    }
+    // router: {
+    //     base: '/wordpress/'
+    // }
 }

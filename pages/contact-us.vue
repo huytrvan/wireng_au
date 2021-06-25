@@ -7,8 +7,8 @@
         will respond to you within 48 hours.
       </p>
     </div>
-    <form @submit.prevent="send()" class="">
-      <div class="grid grid-cols-2 gap-6 mb-8">
+    <form v-if="!isSubmitted" @submit.prevent="submitEmail()" class="">
+      <div class="grid grid-cols-2 gap-6 mb-12">
         <div class="col-span-2">
           <label for="topic" class="contact-us__label">Topic *</label>
           <select
@@ -86,6 +86,10 @@
           ></textarea>
         </div>
       </div>
+      <recaptcha
+        @success="setIsCaptchaChecked(true)"
+        class="inline-block mb-4"
+      />
       <button
         class="
           w-full
@@ -98,16 +102,25 @@
         "
         type="submit"
       >
-        Send
+        Submit
       </button>
     </form>
+    <div v-else class="py-32 text-center">
+      <p>Thank you for sending us your message.</p>
+      <p>Our Customer Support team will reply to you within 48 hours.</p>
+    </div>
   </div>
 </template>
 <script>
 import Email from "~/assets/js/smtp.js";
 import { mapActions } from "vuex";
 export default {
-  mounted() {},
+  data() {
+    return {
+      isSubmitted: false,
+      isCaptchaChecked: false,
+    };
+  },
   computed: {
     data: function () {
       return this.$store.state.email.storageData;
@@ -137,25 +150,31 @@ export default {
       string = string.replace(/[\s]/g, " ");
       return string;
     },
-    send: function () {
-      Email.send({
-        SecureToken: "e212e9b1-25bf-48b9-b3d9-680648126dff",
-        To: "wirengin@gmail.com",
-        From: "huy.at.welc.group@gmail.com",
-        Subject: this.getHeaderMessage(),
-        Body: this.getBodyMessage(),
-      }).then((message) => {
-        if (message === "OK") {
-          alert(
-            "Thank for sending us your message.\nOur Customer Support team will reply to you within 48 hours."
-          );
-          this.deleteData();
-        } else {
-          alert(
-            `Something went wrong while sending your email.\nPlease check your internet connection and retry sending.\nSorry for the inconvenience.`
-          );
-        }
-      });
+    setIsCaptchaChecked: function (boolean) {
+      this.isCaptchaChecked = boolean;
+    },
+    submitEmail() {
+      if (this.isCaptchaChecked) {
+        // Response verified
+        Email.send({
+          SecureToken: "e212e9b1-25bf-48b9-b3d9-680648126dff",
+          To: "directsales@wireng.com",
+          From: "huy.at.welc.group@gmail.com",
+          Subject: this.getHeaderMessage(),
+          Body: this.getBodyMessage(),
+        }).then((message) => {
+          if (message === "OK") {
+            this.isSubmitted = true;
+            this.deleteData();
+          } else {
+            alert(
+              `Something went wrong while sending your email.\nPlease check your internet connection and retry sending.\nSorry for the inconvenience.`
+            );
+          }
+        });
+      } else {
+        alert("Please fill captcha checkbox above before submitting");
+      }
     },
   },
   head: {
@@ -168,6 +187,13 @@ export default {
           "Feel free to email us your question/ feedback using the form below. We will respond to you within 48 hours.",
       },
     ],
+    // script: [
+    //   {
+    //     src: "https://www.google.com/recaptcha/api.js",
+    //     async: true,
+    //     defer: true,
+    //   },
+    // ],
   },
 };
 </script>

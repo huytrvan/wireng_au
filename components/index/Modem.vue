@@ -1,7 +1,9 @@
 <template>
   <div class="">
     <div class="mb-8 text-gray-700 ml-1">
-      <h2 id="modem-by-brand" class="text-xl">Select your hotspot modem</h2>
+      <h2 id="modem-by-brand" class="text-xl mb-1">
+        Select your hotspot modem
+      </h2>
       <p>
         We will help you find the right products to boost your 5G/4G/3G signal
       </p>

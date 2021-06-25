@@ -16,7 +16,8 @@
 export default {
   computed: {
     routeName: function () {
-      return this.$route.name.trim();
+      let routeName = this.$route.name || "";
+      return routeName.trim();
     },
   },
 };

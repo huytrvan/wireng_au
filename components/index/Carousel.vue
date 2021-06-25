@@ -70,7 +70,7 @@ export default {
 .agile__dots {
   @apply absolute;
   @apply bottom-[3%];
-  @apply left-[38.5%];
+  @apply left-[42.5%];
 }
 .agile__dot {
   @apply mx-3;
