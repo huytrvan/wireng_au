@@ -1,4 +1,0 @@
-wireng.com.au
-site key: 6Lc_ZU8bAAAAAAWy10acDLVMX8kTs9NYlgn8Ql34
-secret key: 6Lc_ZU8bAAAAAM_ofDvmUtvIcTJaosuWT_yaLJUe
-
